@@ -1,5 +1,5 @@
-html {background-color: #212429;
-}
+html {background-color: #212429;}
+
 :root{
     color: #212429;
     --bs-body-bg:#212429;
@@ -25,7 +25,7 @@ table {
     margin: auto; /* Выравниваем таблицу по центру окна  */
     border-radius: 30px;
     padding: 8px;
-    width: 75%;
+    width: 50%;
     position: relative;
    }
    td {
@@ -33,22 +33,53 @@ table {
     padding: 1rem 1.25rem 0.5rem;
     
    }
-.table1 {background-color: rgb(25 27 31) !important;
-}
+.table1 {background-color: rgb(25 27 31) !important;}
 .table2 {
     background-color: rgb(33 36 41);
     margin-bottom: 14px;
+    width: 100%;
+    font-size: 28px;
+    font-family: Consolas;
 }
 .footertable {
     text-align: center;
 }
+::placeholder {
+    color: rgb(178 185 210);
+  }
+.form-select {
+    background-color: rgb(44 47 54);
+    padding: 16px;
+    border-radius: 30px;
+    color: white;
+    border-color: blueviolet;
+}
 button{
-    background-color: rgba(21, 61, 111, 0.44);
+    background-color: rgb(21, 61, 111, 0.44);
     color: rgb(80, 144, 234);
     margin: auto;
-    border-radius: 30px;
+    border-radius: 23px;
+    border: none;
     padding: 16px;
     width: 100%;
     margin-top: auto;
+    margin-bottom: 10px;
     cursor: pointer;
+    text-decoration:none;
+    text-shadow:1px 1px rgb(255, 0, 234)
+}
+input {
+    background: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    outline: none;
+}
+select{
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
