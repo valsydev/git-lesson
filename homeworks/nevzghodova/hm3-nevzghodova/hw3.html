@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" action="">
+            <div class="top">
+                <span class="name">Swap</span>
+                <i class="fa fa-cog right fa-right" aria-hidden="true"></i>
+            </div>
+            <div>
+                <div class="input-holder">
+                    <input type="number" placeholder="1">
+                    <select class="list" name="crypto">
+                        <option value="eth" selected>ETH</option>
+                        <option value="usdc">USDC</option>
+                        <option value="btc">BTC</option>
+                    </select>
+                    <div class="rate">$2,942.52</div>
+                </div>
+                <div class="arrow-down">
+                    <i class="fa fa-solid fa-arrow-down"></i>
+                </div>
+                <div class="input-holder">
+                    <input type="number" placeholder="2940.3">
+                    <select class="list" name="crypto-2">
+                        <option value="eth">ETH</option>
+                        <option value="usdc" selected>USDC</option>
+                        <option value="btc">BTC</option>
+                    </select>
+                    <div class="rate">$2,940.3(-0.0752%)</div>
+                </div>
+                <div class="info">
+                    <i class="fa fa-solid fa-info"></i>
+                    <select class="info-list" name="crypto-2">
+                        <option value="usdc-to-eth" selected>1 USDC = 0.0003401 ETH (1$)</option>
+                        <option value="usdc-to-btk">1 USDC = 0.00002411 BTC</option>
+                    </select>
+                </div>
+                <button>Connect Walley</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
