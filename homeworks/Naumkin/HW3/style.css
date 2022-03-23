@@ -1,6 +1,7 @@
 html {
   background-image: url("https://kartinkin.net/uploads/posts/2021-07/1626814885_21-kartinkin-com-p-elegantnii-chernii-fon-krasivo-27.jpg");
 }
+
 header {
   color: aliceblue;
   font-family: monospace, sans-serif;
@@ -10,15 +11,19 @@ header {
   padding-top: 70px;
   float: center;
 }
+
 header:hover {
   color: rgb(185, 144, 9);
 }
+
 footer:hover {
   color: rgb(185, 144, 9);
 }
+
 div#Conv:hover {
   color: rgb(185, 144, 9);
 }
+
 #Conv {
   color: silver;
   background-color: rgb(34, 34, 34);
@@ -35,10 +40,12 @@ div#Conv:hover {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 :placeholder-shown {
   font-size: 20px;
   padding-left: 15px;
 }
+
 div {
   background-color: rgb(34, 34, 34);
   height: 30%;
@@ -46,6 +53,7 @@ div {
   padding-top: 5px;
   margin-top: 5px;
 }
+
 input {
   background-color: rgb(66, 64, 64);
   color: silver;
@@ -60,6 +68,7 @@ input {
   font-size: 20px;
   padding-top: 5px;
 }
+
 select {
   background-color: rgb(34, 34, 34);
   color: silver;
@@ -76,6 +85,7 @@ select {
     sans-serif;
   font-size: 20px;
 }
+
 div#But {
   background-color: rgb(34, 34, 34);
   height: 20%;
@@ -83,6 +93,7 @@ div#But {
   padding-bottom: 5px;
   border-radius: 20px;
 }
+
 button#Button {
   background-color: rgb(66, 64, 64);
   color: silver;
@@ -98,6 +109,7 @@ button#Button {
   text-align: center;
   cursor: pointer;
 }
+
 img {
   border-radius: 27px;
 }
