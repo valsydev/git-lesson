@@ -1,0 +1,136 @@
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.format-main {
+    background: rgb(25, 27, 31);
+    width: 260px;
+    height: 204px;
+    top: 20px;
+    left: 20px;
+    border-radius: 14px;
+}
+
+.format-input-button {
+    margin-left: 6px;
+    border-radius: 9px;
+    border: none;
+}
+
+.format-input {
+    width: 159px;
+    height: 13px;
+    margin-top: 3px;
+    padding: 10px 80px 33px 9px;
+    background: rgb(34, 36, 41);
+}
+
+.position-input-01 {
+    margin-top: 24px;
+}
+
+.format-button {
+    width: 248px;
+    height: 27px;
+    margin-top: 2px;
+    padding-left: 9px;
+    background: rgb(28, 41, 64);
+}
+
+.format-button-active:hover {
+    background: rgb(28, 58, 64);
+}
+
+.format-button-small {
+    width: max-content;
+    height: 18px;
+    top: 73px;
+    left: 125px;
+    padding: 0px 2px 0px 2px;
+    margin: auto;
+    background: rgb(34, 36, 41);
+    border-radius: 6px;
+    border: 2px solid rgb(25, 27, 31);
+}
+
+.format-button-small-active:hover {
+    background: rgb(34, 46, 41);
+}
+
+.format-select {
+    width: max-content;
+    height: 19px;
+    right: 13px;
+    background: rgb(44, 47, 52);
+    border-radius: 8px;
+    border: none;
+}
+
+.position-select-up {
+    top: 35px;
+}
+
+.position-select-midl {
+    top: 94px;
+}
+
+.position-select-down {
+    margin-left: 6px;
+    margin-top: 2px;
+    padding-left: 18px;
+    width: 248px;
+    height: 28px;
+    border: none;
+    background: rgb(25, 27, 31);
+}
+
+.position-options {
+    background: none;
+    border: none;
+    top: 6px;
+    right: 9px;
+}
+
+.position-label {
+    top: 9px;
+    left: 10px;
+}
+
+.position-value-up {
+    top: 63px;
+    left: 12px;
+}
+
+.position-value-down {
+    top: 122px;
+    left: 12px;
+}
+
+.font-type01 {
+    color: white;
+    font-size: 13px;
+}
+
+.font-type02 {
+    color: rgb(71, 107, 170);
+    font-size: 7px;
+}
+
+.font-type03 {
+    color: white;
+    font-size: 9px;
+}
+
+.font-type04 {
+    color: white;
+    font-size: 7px;
+}
+
+.font-type05 {
+    color: rgb(144, 150, 170);
+    font-size: 9px;
+}
