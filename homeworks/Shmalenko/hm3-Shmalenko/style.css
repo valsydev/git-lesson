@@ -1,0 +1,54 @@
+* {
+  color: rgb(148, 146, 168);
+  border-radius: 12px;
+  font-size: 27px;
+  text-align: left;
+}
+  div.box {
+    height: 300px; 
+    width: 350px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+  }
+  div.r { 
+    height: 40px;
+    font-size: 15px;
+    margin-top: 55px;
+  }
+  div.l {
+    padding-right: 50px;
+    height: 30px;
+  }
+
+  button {
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: rgba(105, 105, 109, 0.76);
+    width: 350px;
+    text-align: center;
+    height: 45px;
+    margin-top: 25px;
+  }
+  .first {
+  margin-left: 150px;
+  margin-top: 15px;
+  }
+  input {
+    background-color: rgba(46, 46, 48, 0.61);
+    height: 50px;
+  }
+  label {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .form-select {
+    margin-left: 200px;
+    font-size: 15px;
+    background-color: rgba(75, 73, 73, 0.445);
+  }
+  .selected {
+    margin-bottom: 50px;
+  }
+ 
