@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+html {
+  background-image: url(https://oir.mobi/uploads/posts/2021-03/1616578432_36-p-svetlii-fon-dlya-saita-39.jpg);
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+header {
+  font-size: smaller;
+}
+
+#account {
+  width: 1300px;
+}
+
+#Name {
+  display: inline;
+}
+
+#foto {
+  height: 170px;
+  width: 170px;
+  float: left;
+}
+
+#info {
+  height: 430px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#infotwo {
+  height: 430px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#block1 {
+  height: 400px;
+  width: 20%;
+  margin: 5px;
+  padding-left: 5px;
+  display: inline-table;
+}
+
+#block2 {
+  height: 400px;
+  width: 70%;
+  margin: 5px;
+  padding-left: 35px;
+  display: inline-table;
+}
+
+#block3 {
+  height: 50px;
+  width: 70%;
+}
+
+.block1 {
+  display: block;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.block2 {
+  display: block;
+  text-transform: none;
+  line-height: 25px;
+}
+
+a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: blue;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+a.mail::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/128/893/893257.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a.icq::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/128/889/889117.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a.face::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/128/733/733547.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a.twit::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/128/3256/premium/3256013.png?token=exp=1648644482~hmac=1f24aa9ab3e093c6dc0ae21c1de7e9e5);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a.ok::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/128/3256/premium/3256026.png?token=exp=1648644654~hmac=9e4885ba476afad3104fbf684a04d261);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a.vk::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/128/3256/premium/3256027.png?token=exp=1648644590~hmac=986e6e39d083070ac5a5515e90fab911);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a.skype::before {
+  background-image: url(https://cdn-icons.flaticon.com/png/128/3536/premium/3536534.png?token=exp=1648644694~hmac=be29118ae004f34af6871f10992f700c);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-size: 75%;
+  top: 4px;
+  position: relative;
+}
+
+a:hover {
+  color: gray;
+}
+a:active {
+  color: red;
+}
+
+i {
+  color: black;
+}

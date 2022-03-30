@@ -1,0 +1,46 @@
+@media only screen and (max-width: 950px) {
+  #account {
+    width: 750px;
+    background-color: rgb(231, 76, 76);
+  }
+  #info {
+    background-color: rgb(47, 219, 41);
+  }
+
+  #infotwo {
+    background-color: rgb(219, 216, 15);
+  }
+
+  #block1 {
+    background-color: rgb(169, 14, 184);
+    font-size: 14px;
+    height: 95%;
+  }
+
+  #block2 {
+    background-color: rgb(228, 224, 25);
+  }
+}
+@media screen and (max-width: 768px) {
+  #account {
+    width: 450px;
+    background-color: rgb(235, 132, 132);
+  }
+  #info {
+    background-color: rgb(134, 216, 132);
+  }
+
+  #infotwo {
+    background-color: rgb(114, 129, 212);
+  }
+
+  #block1 {
+    background-color: rgb(180, 99, 187);
+    display: none;
+  }
+
+  #block2 {
+    background-color: rgb(226, 224, 102);
+    width: auto;
+  }
+}
