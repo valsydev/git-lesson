@@ -48,14 +48,14 @@ div:nth-child(even) {
     width: calc(100% - 255px)
 }
 .fa-twitter {
-    color: #7360F2;
+    color: #0022bb;
 }
 .fa-discord {
-    color: #4388e2;
+    color: #5320cc;
 }
 .fa-sail-boat{
-    color: #d62976;
+    color: #4668ff;
 }
 .fa-instagram_square {
-    color: #fa1eef;
+    color: #fa2c11;
 }
