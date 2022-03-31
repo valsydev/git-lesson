@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins';
+}
+header {
+    width: auto;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+.header_img {
+    width: 20%; 
+}
+section {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+h1{
+    color: rgb(14, 90, 190);
+}
+a {
+    color: #2e7bc4;
+    text-decoration: none;
+}
+a:visited {
+    color: #2e7bc4;
+}
+main {
+    width: auto;
+    position: relative; 
+    padding: 10px;
+    margin: 10px; 
+}
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.info {
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align:top;
+}
+div:nth-child(even) {
+    width: calc(100% - 255px)
+}
+.fa-viber {
+    color: #7360F2;
+}
+.fa-paper-plane {
+    color: #4388e2;
+}
+.fa-instagram {
+    color: #d62976;
+}
+.fa-envelope {
+    color: #fa511e;
+}
