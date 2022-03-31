@@ -1,0 +1,105 @@
+.conteiner {
+    background-color: rgb(255, 255, 255);
+    width: 960px;
+    height: 1080px;
+    top: 21px;
+    bottom: 79px;
+    position: relative;
+    font-family: 'Poppins';
+}
+.logo-figma {
+    position: absolute;
+    left: 17.45%;
+    right: 67.5%;
+    top: 20.28%;
+    bottom: 63.8%;
+}
+.logo-text {
+    position: absolute;
+    width: 180px;
+    height: 32px;
+    left: 23.31%;
+    right: 70.31%;
+    top: calc(50% - 32px/2 - 133px);
+    font-size: 21px;
+    color: #575962;
+}
+#mail {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #DFE2EA;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: 340px;
+    position: absolute;
+    height: 21px;
+    left: 16.25%;
+    right: 81.77%;
+    top: calc(50% - 21px/2 - 37.4px); 
+}   
+#password {
+    border: none;
+    outline: none; 
+    position: absolute;
+    height: 21px;
+    width: 68px;
+    left: 16.25%;
+    right: 80.21%;
+    top: calc(50% - 21px/2 + 10.6px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#checkbox {
+    width: 18px;
+    height: 18px;
+}
+.Check {
+    position: absolute;
+    height: 21px;
+    left: 15.76%;
+    right: 51.72%;
+    top: calc(50% - 21px/2 + 71.6px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #575962;
+}
+a:visited{
+    color: #2277FF;
+}
+.forget_password {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    position: absolute;
+    height: 21px;
+    width: 125px;
+    left: 38.24%;
+    right: 66.3%;
+    top: 607px;
+}
+.button-fotter {
+    width: 140px;
+    height: 52px;
+    position: absolute;
+    left: 25.35%;
+    right: 71.35%;
+    top: 62.31%;
+    bottom: 32.87%;
+    background: #154AB1;
+    border-radius: 26px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+}
