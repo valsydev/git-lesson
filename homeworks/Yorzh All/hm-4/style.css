@@ -47,15 +47,15 @@ ul {
 div:nth-child(even) {
     width: calc(100% - 255px)
 }
-.fa-viber {
+.fa-twitter {
     color: #7360F2;
 }
-.fa-paper-plane {
+.fa-discord {
     color: #4388e2;
 }
-.fa-instagram {
+.fa-sail-boat{
     color: #d62976;
 }
-.fa-envelope {
-    color: #fa511e;
+.fa-instagram_square {
+    color: #fa1eef;
 }
