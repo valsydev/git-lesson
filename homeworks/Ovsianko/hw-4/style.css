@@ -1,15 +1,16 @@
-html{
+html {
     padding: 25px;
 }
 
-body{
+body {
     font-family: Consolas;
 }
-.header1 {
+
+.header-description {
     color: gray;
 }
 
-div {
+.profile-txt {
     width: 300px;
     display: inline-block;
     box-sizing: border-box;
@@ -18,11 +19,11 @@ div {
     padding-bottom: 10px;
 }
 
-div:nth-child(even) {
+.profile-txt:nth-child(even) {
     width: calc(100% - 350px)
 }
 
-.div-info{
+.div-info {
     width: 400px;
     display: inline-block;
     box-sizing: border-box;
@@ -45,6 +46,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 .ukraine:hover {
     color: yellow;
 }
