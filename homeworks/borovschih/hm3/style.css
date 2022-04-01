@@ -1,0 +1,65 @@
+table {
+    margin: auto;
+    border-radius: 20px;
+}
+body {
+    background-color: #231f26;
+    color: white;
+}
+.internal {
+    background-color: #1c1f24;
+    border-radius: 20px;
+    width: 400px;
+    height: 110px;
+}
+.external {
+    background-color: #121419;
+    height: 300px; 
+    text-align: center;  
+    position: relative;
+    width: 450px;
+    height: 250px;
+}
+.wallet {
+    background-color: #15243e;
+    border-radius: 20px;
+    height: 75px;
+}
+button {
+    background-color: #15243e;
+    color: #5480cc;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+input {
+    background-color: #1c1f24;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-size: large;
+}
+select {
+    cursor: pointer;
+    background-color: rgb(51, 50, 50);    
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    box-shadow: 7px 5px 5px rgb(51, 50, 50);
+}
+#swapcur {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #121419;
+    border-radius: 5px;
+    background-color: #121419;
+    margin-left: 200px;
+}
+img {
+    width: 25px;
+    height: 25px;
+}
