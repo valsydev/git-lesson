@@ -1,0 +1,39 @@
+  div.myimg  {
+ margin-left: 10px;
+ margin-top: 10px;
+ display: block;
+    }
+  .text {
+      display: block;
+      margin-left: 40px;
+
+}
+
+    #container {
+        display: flex;
+    }
+    hr {
+        margin-top: 25px;
+    }
+   .leftbox {
+       display: block;
+       margin-left: 5px;
+   }
+   .rigtbox {
+       display: block;
+       margin-left: 200px;
+   }
+    #container2 {
+        display: flex;
+    }
+    .leftbox2 {
+        display: block;
+        margin-left: 5px;
+    }
+    .rigtbox2 {
+        display: block;
+        margin-left: 200px;
+    }
+    #container3 {
+        display: flex;
+    }
