@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: #2e7bc4;
+    color: rgb(138, 43, 226);
 }
 main {
     width: auto;
