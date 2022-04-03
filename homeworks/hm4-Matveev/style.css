@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('Fonts/Arial-BoldMT.eot');
+    src: local('Arial Bold'), local('Arial-BoldMT'),
+    url('Fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/Arial-BoldMT.woff') format('woff'),
+    url('Fonts/Arial-BoldMT.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.fonts-style-basic {
+    font-family: 'Arial';
+}
+
+.absolute {
+    position: absolute;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    color: black;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.fonts-size-17 {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fonts-size-10 {
+    font-size: 10px;
+}
+
+.fonts-size-08 {
+    font-size: 8px;
+}
+
+.color-blue-dark {
+    color: #275467;
+}
+
+.color-blue-light {
+    color: #89b3b2;
+}
+
+.color-gray {
+    color: #6f8d8d;
+}
+
+.color-black {
+    color: black;
+}
+
+.position-icon-small {
+    top: 5px;
+    left: 9px;
+}
+
+.position-icon-big {
+    margin-left: 8px;
+}
+
+.position-description-icon-small {
+    margin-left: 5px;
+}
+
+.position-icon-all {
+    margin-top: -13px;
+    margin-bottom: 5px;
+}
+
+.position-header-3rows {
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.position-header-2row {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.position-header-3row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.position-block-left {
+    width: 215px;
+}
+
+.position-study {
+    margin-top: 138px;
+}
+
+.position-block-right {
+    width: 400px;
+}
+
+main {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: #6d747a;
+}
+
+.none {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .block-left-none {
+        display: none;
+    }
+}
+
+/* {
+    border: 1px solid green;
+}
