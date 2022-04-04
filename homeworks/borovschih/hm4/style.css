@@ -1,10 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 img {
     width: 130px;
     height: 130px;
 }
 span {
     display: inline-block;
-    width: 70%;
+    width: 60%;
     position: absolute;
     margin-left: 30px;
 }
@@ -15,13 +18,16 @@ span.img {
     position: relative;
 }
 header {
-    width: 100%;
+    width: 60%;
     height: 210px;
     color: gray;
 }
-a {
-    text-decoration: none;
+
+hr {
+    margin-left: 30px;
+    margin-right: 300px;
 }
+
 h1 {
     color: rgb(120, 94, 233);
 }
@@ -52,4 +58,71 @@ h5 {
     cursor: pointer;
     border-radius: 4px;
     text-align: center;
+}
+
+div {
+    width: 500px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+div:nth-child(even) {
+    width: calc(100% - 550px);
+}
+
+#btn {
+    width: 150px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 112, 201);
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+section {
+    line-height: 2;
+    margin-left: 30px;
+}
+
+.left {
+    color: rgb(114, 106, 106);
+}
+
+.icq {
+    fill: rgb(25, 211, 25);
+}
+
+svg {
+    width: 15px;
+    height: auto;
+}
+
+.tg {
+    fill: rgb(36, 146, 197);
+}
+
+.mail {
+    fill: orangered;
+    background-color: rgb(69, 86, 231);
+    border-radius: 5px;
+}
+
+.skype {
+    fill: rgb(36, 146, 197);
+}
+
+.inst {
+    fill: rgb(140, 28, 173);
+    fill: radial-gradient(circle, rgba(82,58,180,1) 0%, rgba(253,96,29,1) 50%, rgba(252,69,242,1) 100%);
 }
