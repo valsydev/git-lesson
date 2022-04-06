@@ -43,8 +43,7 @@ h5 {
     background-color: rgb(94, 218, 56);
   }
   
-  
-  input[type="checkbox"]:checked ~ .text {
+input[type="checkbox"]:checked ~ .text {
     display: block;
   }
 
