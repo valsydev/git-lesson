@@ -7,21 +7,21 @@
   left: 20%;
 }
 
-#Button_Previous {
+#button_previous {
   background-color: rgb(141, 211, 144);
   float: left;
   width: 50px;
   height: 50px;
 }
 
-#Button_Next {
+#button_next {
   background-color: rgb(141, 211, 144);
   float: right;
   width: 50px;
   height: 50px;
 }
 
-#Numbers {
+#numbers {
   width: 400px;
   height: 50px;
 }
@@ -46,28 +46,29 @@ a.page:focus {
 a.page:active {
   color: crimson;
 }
-a.Previous::before {
+
+a.previous::before {
   content: '';
   display: inline-block;
   width: 50px;
   height: 50px;
 }
 
-a.Previous::before {
+a.previous::before {
   background-image: url(https://cdn-icons-png.flaticon.com/128/4317/4317909.png);
   background-position: left;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-a.Next::before {
+a.next::before {
   content: '';
   display: inline-block;
   width: 50px;
   height: 50px;
 }
 
-a.Next::before {
+a.next::before {
   background-image: url(https://cdn-icons-png.flaticon.com/128/4317/4317914.png);
   background-position: left;
   background-repeat: no-repeat;
