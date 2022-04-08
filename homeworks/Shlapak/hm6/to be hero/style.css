@@ -1,0 +1,56 @@
+body {
+    background-color: red;
+}
+.block {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    color: white;
+}
+#yellow {
+    background-color: yellow;
+    position: absolute;
+    z-index: -3;
+    color: black;
+}
+#blue {
+    background-color: blue;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: -2;
+}
+#green {
+    background-color: green;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 0;
+    text-align: center;
+}
+#purple {
+    background-color: purple;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+    text-align: center;
+}
+#orange {
+    background-color: orange;
+    position: absolute;
+    top: 10px;
+    left: 130px; 
+    z-index: -1; 
+    text-align: center; 
+    color: black;
+}
+input {
+    width: 60px;
+}
+form {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    z-index: 1;
+}
