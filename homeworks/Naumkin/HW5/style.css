@@ -46,6 +46,7 @@ a.page:focus {
 a.page:active {
   color: crimson;
 }
+
 a.previous::before {
   content: '';
   display: inline-block;
