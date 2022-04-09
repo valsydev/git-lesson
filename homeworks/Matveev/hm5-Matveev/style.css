@@ -1,0 +1,66 @@
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+nav {
+    background: #c5c7ce;
+    border: 1px solid #000000;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button-right-left {
+    background: #d5e0cd;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.page {
+    text-decoration: none;
+    color: black;
+}
+
+.page-li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline;
+}
+
+.position-text-up {
+    margin-top: 10px;
+}
+
+.position-text-down {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.position-arrow-left {
+    float: left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.position-arrow-right {
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.centering {
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.color-green {
+    color: green;
+}
