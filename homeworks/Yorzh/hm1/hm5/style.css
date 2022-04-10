@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    text-align: center;
+    background: purple;
+  }
+  ::selection {
+    color: #fff;
+    background: #f23b26;
+  }
+  .container {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    }
+  .container .title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .container p {
+    font-size: 19px;
+  }
+  .pagination {
+    margin: 25px 0 15px 0;
+  }
+  .pagination,
+  .pagination li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pagination li {
+    background: purple;
+    list-style: none;
+  }
+  .pagination li a {
+    text-decoration: none;
+    color: yellow;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-right-width: 0px;
+  }
