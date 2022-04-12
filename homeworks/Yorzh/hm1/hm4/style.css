@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins';
+}
+header {
+    width: auto;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+.header_img {
+    width: 20%; 
+}
+section {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+h1{
+    color: rgb(138, 43, 226);
+}
+a {
+    color: rgb(138, 43, 226);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(138, 43, 226);
+}
+main {
+    width: auto;
+    position: relative; 
+    padding: 10px;
+    margin: 10px; 
+}
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.contact {
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align:top;
+}
+div:nth-child(even) {
+    width: calc(100% - 255px)
+}
+.fa-twitter {
+    color: #0022bb;
+}
+.fa-discord {
+    color: #5320cc;
+}
+.fa-sailboat {
+    color: #4668ff;
+}
+.fa-instagram {
+    color: #fa2c11;
+}
