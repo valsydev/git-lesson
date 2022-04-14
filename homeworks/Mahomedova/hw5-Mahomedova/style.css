@@ -1,0 +1,51 @@
+a { 
+    text-decoration: none; 
+    color:blue;
+}
+
+a:hover {
+    text-decoration: underline;
+   }
+
+main div {
+    width: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align:top;
+    margin-top: 5px;
+   }
+
+main div:nth-child(even) {
+    width: calc(100% - 210px)
+  }
+
+hr {
+    width: 98%;
+    border: 1px solid black;
+}
+
+img.moomin {
+    width: 25px;
+    height: 25px;
+}
+
+img.moomin_big {
+    width: 160px;
+    float: left;
+    
+}
+
+i {
+    color:purple;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    main div:nth-child(odd) {
+        display: none;
+    }
+}
