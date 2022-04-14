@@ -1,0 +1,47 @@
+.list {
+    list-style-type: none;
+    float: left;
+    width: 33.33%;
+    padding: 0;
+    margin-top: 43px;
+}
+li {
+    display: inline;
+    margin: 0;
+}
+.arrow {
+    max-width: 100px;
+    cursor: pointer;
+}
+.left_button {
+    float: left;
+    width: 33.33%;
+}
+.right_button {
+    float: left;
+    width: 33.33%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.text {
+    display: block;
+    clear: both;
+}
+.bottom-text {
+    clear: both;
+}
+a:link { 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: none;
+}
+a:active { 
+    text-decoration: underline;
+    color: red;
+}
+a:visited { 
+    text-decoration: none; 
+} 
