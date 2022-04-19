@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.data_item_title {
+    width: 30%;
+    padding: 5px;
+    text-transform:uppercase;
+    color: darkgray;
+}
+
+.data_item{
+    display: flex;
+}
+.data_item a{
+    display: block;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: inline-block;
+}
+.profile-photo {
+    max-width: 150px;
+    display: inline-block;
+}
+.head {
+    display: inline-block;
+    padding: 10px;
+}
+.social-media-icon {
+    margin-right: 5px;
+}
+.icon {
+    width: 16px;
+    height: 16.8px;
+}
+.account-head {
+    padding-bottom: 50px;
+    border-bottom: 2px gainsboro solid;
+}
+.data {
+    margin-top: 20px;
+}
+.head-title {
+    color: cornflowerblue;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.head-text {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+.contacts_links {
+    padding: 5px;
+}
+@media screen and (max-width: 768px) {
+    .data_item {
+        width: auto;
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    .data_item_title {
+        width: auto;
+    }
+}
