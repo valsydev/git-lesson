@@ -9,10 +9,10 @@
     color: darkgray;
 }
 
-.data_item{
+.data_item {
     display: flex;
 }
-.data_item a{
+.data_item a {
     display: block;
 }
 .contacts {
@@ -61,8 +61,8 @@ a {
 @media screen and (max-width: 768px) {
     .data_item {
         width: auto;
-       flex-direction: column;
-       align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .data_item_title {
         width: auto;
