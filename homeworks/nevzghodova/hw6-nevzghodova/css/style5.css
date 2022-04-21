@@ -1,0 +1,50 @@
+body {
+    background-color: red;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+.yellow-block {
+    background-color: yellow;
+    position: absolute;
+    z-index: -3;
+}
+
+.blue-block {
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.orange-block {
+    background-color: orange;
+    position: absolute;
+    top: 35px;
+    left: 200px;
+}
+
+.orange-block-form {
+    position: absolute;
+    left: -10px;
+    top: 20px;
+}
+
+.green-block {
+    background-color: green;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    z-index: 0;
+}
+
+.purple-block {
+    background-color: purple;
+    position: absolute;
+    top: 205px;
+    left: 150px;
+    z-index: 3;
+}
