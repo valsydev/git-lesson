@@ -140,3 +140,8 @@ p {
 .input {
 width: 80px;
 }
+
+.text {
+    font-size: 22px;
+    color: blue;
+}
