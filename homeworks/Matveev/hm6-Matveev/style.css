@@ -26,6 +26,7 @@
     background-color: #ff0;
     border: 3px solid red;
     z-index: 1;
+    position: sticky;
 }
 
 
