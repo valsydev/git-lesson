@@ -1,0 +1,91 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.offers {
+    display: flex;
+}
+
+.discount {
+    height: 188px;
+    width: 100%;
+    border-radius: 16px;
+    margin: 19px;
+}
+
+.deserts-discount {
+    background-color: #F3F4FF;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.burgers-discount {
+    background-color: #FFF3ED;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.off-pic-desert {
+    height: 224px;
+    width: 229px;
+}
+
+.off-pic-burg {
+    height: 280px;
+    width: 280px;
+}
+
+.off-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 210px;
+}
+
+.topic-menu {
+    color: #2B2B43;
+    font-size: 20px;
+}
+
+#blue {
+    color: #4E60FF;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#orange {
+    color: #FD6D22;
+    font-size: 40px;
+    margin: 0px;
+}
+.tag {
+    color: #83859C;
+    font-size: 14px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.choice-dishes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dishes {
+    border-radius: 16px;
+    border:  solid #EDEEF2;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+    line-height: 18px;
+}
+
