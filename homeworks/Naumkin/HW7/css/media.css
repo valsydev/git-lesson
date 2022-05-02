@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) and (max-width: 599px) {
+@media screen and (min-width: 350px) and (max-width: 599px) {
   body {
     flex-wrap: wrap;
     margin: 10px;
@@ -21,12 +21,20 @@
     margin: 0px;
   }
 
-  .main input {
-    width: 90%;
+  .find {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .menu {
+    width: 220px;
   }
 
   .main .number {
-    left: -19%;
+    left: -30px;
   }
 
   .main div {
@@ -35,10 +43,17 @@
 
   .main .restaurants,
   .main .deals,
-  .divider,
   .fa-magnifying-glass,
   .my_orders {
     display: none;
+  }
+
+  .divider {
+    left: 72%;
+  }
+
+  .burger {
+    display: flex;
   }
 
   .sales {
@@ -48,9 +63,25 @@
     padding: 0;
   }
 
+  .sales1,
+  .sales2 {
+    height: 440px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sales1 div,
+  .sales2 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+
   .text2,
   .text5 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .sales1 {
@@ -65,33 +96,26 @@
 
   .categories {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    top: 27%;
+    top: 80%;
   }
 
   .block {
     flex-wrap: wrap;
-    margin-bottom: 15px;
-  }
-
-  .Pizza,
-  .Burger,
-  .BBQ,
-  .Sushi,
-  .Vegan,
-  .Desserts {
-    width: 150px;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
   }
 
   .restorans {
-    top: 40%;
+    top: 95%;
+    width: 100%;
   }
 
   .restorans div img {
     position: relative;
-    top: -32%;
+    top: -30%;
   }
 
   .restorans div {
@@ -124,23 +148,20 @@
     margin: 0px;
   }
 
-  .main input {
-    width: 90%;
+  .find {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
   }
 
   .main .number {
-    left: -10%;
+    left: -5%;
   }
 
   .main div {
     margin: 0px 5px;
-  }
-
-  .main .restaurants,
-  .main .deals,
-  .divider,
-  .fa-magnifying-glass {
-    display: none;
   }
 
   .sales {
@@ -167,63 +188,63 @@
 
   .categories {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     top: 27%;
   }
 
   .block {
     flex-wrap: wrap;
-    margin-bottom: 15px;
-  }
-
-  .Pizza,
-  .Burger,
-  .BBQ,
-  .Sushi,
-  .Vegan,
-  .Desserts {
-    width: 180px;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
   }
 
   .restorans {
     top: 40%;
+    width: 100%;
+  }
+
+  .restorans div {
+    display: flex;
+    margin-bottom: 15px;
+    width: 49%;
+    height: 45%;
   }
 
   .restorans div img {
     position: relative;
-    top: -32%;
+    top: -27%;
   }
+
   .restorans div h2 {
-    top: 65%;
+    top: 58%;
     left: 7%;
     font-size: 20px;
   }
+
   .fa-clock {
     top: 78%;
     left: 7%;
   }
 
   .restorans div h4 {
-    top: 77.2%;
-    left: 11%;
+    top: 77%;
+    left: 14%;
   }
 
   .restorans div span {
-    top: 73%;
-    left: 22%;
-  }
-  .restorans div div {
-    top: 88%;
-    width: 17%;
+    top: 77%;
+    left: 35%;
   }
 
-  .restorans div {
-    display: flex;
-    margin-bottom: 15px;
-    width: 100%;
-    height: 60%;
+  .restorans div div {
+    top: 88%;
+    width: 27%;
+  }
+
+  .restorans div .mini_catalog2 {
+    left: 130px;
   }
 }
 
@@ -250,21 +271,20 @@
     margin: 0px;
   }
 
-  .main input {
-    width: 90%;
+  .main {
+    width: 100%;
+  }
+
+  .find {
+    display: none;
   }
 
   .main .number {
-    left: -7%;
+    left: -5%;
   }
 
   .main div {
     margin: 0px 5px;
-  }
-
-  .divider,
-  .fa-magnifying-glass {
-    display: none;
   }
 
   .sales {
@@ -278,6 +298,7 @@
   .text5 {
     font-size: 25px;
   }
+
   .text1,
   .text4 {
     font-size: 20px;
@@ -342,7 +363,6 @@
   .restorans .position5,
   .restorans .position6 {
     width: 63%;
-
     margin: 5px;
   }
 
@@ -361,6 +381,7 @@
     top: 68%;
     left: 7%;
   }
+
   .fa-cart-shopping {
     top: 52%;
     left: 88%;
@@ -372,9 +393,10 @@
   }
 
   .restorans div span {
-    top: 73%;
-    left: 2%;
+    top: 75%;
+    left: 3%;
   }
+
   .restorans div div {
     top: 88%;
     width: 30%;
@@ -412,12 +434,16 @@
     margin: 0px;
   }
 
-  .main input {
-    width: 90%;
+  .find {
+    right: 5%;
+  }
+
+  .main {
+    width: 100%;
   }
 
   .main .number {
-    left: -7%;
+    left: -5%;
   }
 
   .main div {
@@ -534,8 +560,8 @@
   }
 
   .restorans div span {
-    top: 73%;
-    left: 2%;
+    top: 75%;
+    left: 3%;
   }
 
   .restorans div div {
@@ -571,12 +597,12 @@
     margin: 0px;
   }
 
-  .main input {
-    width: 90%;
+  .main {
+    width: 100%;
   }
 
   .main .number {
-    left: -7%;
+    left: -4%;
   }
 
   .main div {
@@ -640,13 +666,13 @@
   .Sushi,
   .Vegan,
   .Desserts {
-    width: 200px;
+    width: 190px;
   }
 
   .restorans {
     display: flex;
     top: 3%;
-    width: 50%;
+    width: 51%;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5px;
@@ -693,7 +719,7 @@
   }
 
   .restorans div span {
-    top: 70%;
+    top: 75.2%;
     left: 32%;
   }
 

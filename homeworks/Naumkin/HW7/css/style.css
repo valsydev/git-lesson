@@ -749,25 +749,26 @@ label {
 .home {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100vh;
+  margin: 0%;
   position: relative;
-  margin: 0% 10%;
 }
 
 .main {
   display: flex;
+  flex-direction: row;
   height: 80px;
-  width: 100%;
-  position: relative;
-  justify-content: space-between;
+  width: 80%;
   align-items: center;
+  justify-content: space-between;
 }
 
 .com {
   display: flex;
   flex-direction: column;
-  height: 40px;
+  height: 55px;
 }
 
 .main h2 {
@@ -793,10 +794,16 @@ label {
   text-shadow: 0px 0px 3px #0418c9;
 }
 
+.find {
+  position: relative;
+  right: 15%;
+}
+
 .main input {
   display: flex;
   height: 40px;
-  width: 224px;
+  width: 200px;
+  float: left;
   background: #edeef2;
   border-radius: 12px;
   padding-left: 10px;
@@ -805,45 +812,48 @@ label {
 
 .fa-magnifying-glass {
   position: relative;
-  left: -15%;
+  left: -20%;
   top: 12px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
-.main div {
+.menu {
   display: flex;
-  margin: 0px 15px;
-  height: 40px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 span {
-  margin: 15px;
+  margin: 0px 15px;
 }
 
 .divider {
   display: flex;
   width: 0px;
-  height: 40px;
-  left: 81%;
+  height: 38px;
   border-right: 1px solid #edeef2;
+  position: relative;
 }
 
-.fa-basket-shopping {
+.basket {
   display: flex;
   height: 40px;
   width: 40px;
-  font-size: 20px;
-  align-items: center;
-  justify-content: center;
   background: #f3f4ff;
   border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-basket-shopping {
+  font-size: 20px;
 }
 
 .number {
   display: flex;
   height: 18px;
   width: 18px;
-  left: -6%;
+  left: -1%;
   top: -18px;
   background: #4e60ff;
   border-radius: 25px;
@@ -852,6 +862,7 @@ span {
   align-items: center;
   font-size: 12px;
   position: relative;
+  margin: 0;
 }
 
 .avatar {
@@ -862,13 +873,24 @@ span {
   overflow: hidden;
 }
 
+.burger {
+  display: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  background: #f3f4ff;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1828/1828859.png);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
 .home .divider2 {
   height: 0px;
-  width: 124%;
+  width: 99%;
   top: 9%;
   border-radius: 0px;
   position: absolute;
-  left: -12%;
   border: 1px solid #edeef2;
 }
 
@@ -876,7 +898,7 @@ span {
 
 .sales {
   display: flex;
-  width: 100%;
+  width: 80%;
   height: 195px;
   position: relative;
   left: 0%;
@@ -965,7 +987,7 @@ span {
   display: flex;
   justify-content: space-between;
   height: 105px;
-  width: 100%;
+  width: 80%;
   top: 7%;
   position: relative;
 }
@@ -975,7 +997,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-  width: 750px;
+  width: 49%;
 }
 
 .Pizza,
@@ -988,8 +1010,9 @@ span {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  justify-content: center;
   height: 100px;
-  width: 220px;
+  width: 32%;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -1066,7 +1089,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   height: 600px;
-  width: 100%;
+  width: 80%;
   top: 11%;
   position: relative;
 }
@@ -1093,7 +1116,7 @@ h3 {
 .restorans div {
   display: flex;
   height: 276px;
-  width: 450px;
+  width: 33%;
   border: 1px solid #edeef2;
   border-radius: 16px;
   box-sizing: border-box;
@@ -1148,16 +1171,14 @@ h3 {
 }
 
 .restorans div span {
-  left: 30%;
-  top: 76%;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #2b2b43;
   position: absolute;
-  top: 70.5%;
-  left: 20%;
+  top: 76%;
+  left: 22%;
 }
 
 .restorans div div {
