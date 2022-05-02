@@ -27,16 +27,6 @@ body {
     overflow: hidden;
 }
 
-.off-pic-desert {
-    height: 224px;
-    width: 229px;
-}
-
-.off-pic-burg {
-    height: 280px;
-    width: 280px;
-}
-
 .off-text {
     display: flex;
     flex-direction: column;
