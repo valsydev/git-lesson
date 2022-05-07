@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(247, 210, 216);
+    display: grid;
+    grid-gap: 30px;
+    height: 900px;
+    padding: 100px;
+    grid-template-rows: 50px 50px 1fr 50px 50px 50px;
+}
+
+.grid {
+    border: 2px solid red;
+    padding: 10px;
+    background-color: white;
+}
+
