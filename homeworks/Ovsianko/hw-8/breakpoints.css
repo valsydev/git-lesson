@@ -6,19 +6,20 @@
 
     .promo{
         flex-direction: column-reverse;
-        height: 100%;
+        width: 99px;
+        height: 28px;
     }
 
     .promo-deserty {
         padding: 24px 15px 0px 24px !important;
         height: 300px;
-        width: 325px;
+        width: 300px;
     }
 
     .promo-fooddies {
         padding: 24px 15px 0px 24px !important;
         height: 300px;
-        width: 325px;
+        width: 300px;
     }
 
     .txt{display: flex;
