@@ -1,0 +1,95 @@
+.item {
+    border: solid 1px #ff4e34;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "navigation"
+      "main"
+      "main"
+      "main"
+      "sidebar"
+      "ads"
+      "footer";
+    height: 97vh;
+  }
+  
+  .header { grid-area: header; }
+  
+  .navigation { grid-area: navigation; }
+  
+  .main { grid-area: main; }
+  
+  .sidebar { grid-area: sidebar; }
+  
+  .ads { grid-area: ads; }
+  
+  .footer { grid-area: footer; }
+  
+  
+
+@media screen and (min-width: 501px) and (max-width: 1200px){
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "header header header header header header"
+          "navigation navigation navigation navigation navigation navigation"
+          "sidebar main main main main main"
+          "sidebar main main main main main"
+          "sidebar main main main main main"
+          "sidebar main main main main main"
+          "ads footer footer footer footer footer";
+        height: 97vh;
+      }
+      
+      .header { grid-area: header; }
+      
+      .navigation { grid-area: navigation; }
+      
+      .sidebar { grid-area: sidebar; }
+      
+      .main { grid-area: main; }
+      
+      .ads { grid-area: ads; }
+      
+      .footer { grid-area: footer; }
+}
+
+@media screen and (min-width: 1201px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "header header header header header header header header header header"
+          "sidebar sidebar navigation navigation navigation navigation navigation navigation ads ads"
+          "sidebar sidebar main main main main main main ads ads"
+          "sidebar sidebar main main main main main main ads ads"
+          "sidebar sidebar main main main main main main ads ads"
+          "footer footer footer footer footer footer footer footer footer footer";
+        height: 97vh;
+      }
+      
+      .header { grid-area: header; }
+      
+      .sidebar { grid-area: sidebar; }
+      
+      .navigation { grid-area: navigation; }
+      
+      .ads { grid-area: ads; }
+      
+      .footer { grid-area: footer; }
+      
+      .main { grid-area: main; }
+}
