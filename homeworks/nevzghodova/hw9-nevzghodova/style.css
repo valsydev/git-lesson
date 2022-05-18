@@ -1,0 +1,61 @@
+.box {
+    border: 3px solid red;
+    border-radius: 3px;
+    padding: 5px;
+}
+main {
+    grid-area: main;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+aside {
+    grid-area: sidebar;
+}
+div {
+    grid-area: ads;
+}
+footer {
+    grid-area: footer;
+}
+body {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "main main main"
+      "sidebar sidebar sidebar"
+      "ads ads ads"
+      "footer footer footer";
+    grid-gap: 15px;
+    grid-template-rows: 1fr 1fr 350px 1fr 1fr 1fr;
+  }
+
+  @media screen and (min-width: 501px) {
+      body {
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "sidebar main main"
+      "ads footer footer";
+      grid-template-rows: 1fr 1fr 400px 1fr;
+      grid-template-columns: 2fr 5fr;
+  }
+  
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+  grid-template-areas:
+    "header header header"
+    "sidebar nav ads"
+    "sidebar main ads"
+    "footer footer footer";
+    grid-template-rows: 1fr 1fr 500px 1fr;
+    grid-template-columns: 1fr 7fr 1fr; 
+}
+
+}
