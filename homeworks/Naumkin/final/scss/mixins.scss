@@ -1,0 +1,144 @@
+@mixin p {
+  font-size: 16px;
+  line-height: 19px;
+  color: $textp;
+}
+
+@mixin p_bold {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+@mixin p_medium {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+@mixin p_regular {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+@mixin p_text {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@mixin h1 {
+  font-size: 42px;
+  line-height: 50px;
+  color: $gredtext;
+}
+
+@mixin h2 {
+  font-size: 32px;
+  line-height: 38px;
+  color: $dark;
+}
+
+@mixin h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@mixin h3_caps {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $dark;
+}
+
+@mixin h3_name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: $text;
+}
+
+@mixin h3_position {
+  font-size: 16px;
+  line-height: 22px;
+  color: $text;
+}
+
+@mixin h5 {
+  font-size: 21px;
+  line-height: 25px;
+  color: $textp;
+}
+
+@mixin caption {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: $textp;
+}
+
+@mixin h4 {
+  font-size: 18px;
+  line-height: 21px;
+  color: $dark;
+}
+
+@mixin a {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@mixin h2_logo {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: $dark;
+}
+
+@mixin language {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+@mixin address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin phone {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin dot_separator {
+  width: 6px;
+  height: 6px;
+  border-radius: 5px;
+}
+
+@mixin a_map {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@mixin a_mail {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
