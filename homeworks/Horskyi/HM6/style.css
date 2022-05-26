@@ -1,0 +1,64 @@
+#default-example {
+    display: inline-block;
+    overflow: auto;
+    width: 269px;
+    height: 270px;
+    background: #111;
+    color: white;
+  }
+
+
+  #example-element-container {
+      position: relative;
+      text-align: left;
+  }
+
+
+  .box {
+    background-color: rgba(0,0,255,.2);
+    border: 3px solid #00f;
+    float: left;
+    width: 65px;
+    height: 65px;
+  }
+
+
+  p {
+    width: 100%;
+    clear: both;
+  }
+
+
+ #example-element-one {
+      background-color: #ff0;
+      border: 3px solid red;
+      z-index: 1;
+      position: sticky;
+      top: 0;
+  }
+
+
+  #example-element-two {
+    background-color: #ff0;
+    border: 3px solid red;
+    z-index: 1;
+    position: static;
+  }
+
+  #example-element-three {
+    background-color: #ff0;
+    border: 3px solid red;
+    z-index: 1;
+    position: relative;
+    top: 40px;
+    left: 30px;
+  }
+
+  #example-element-four {
+    background-color: #ff0;
+    border: 3px solid red;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
