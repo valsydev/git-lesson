@@ -1,0 +1,28 @@
+.pages{
+    display: flex;
+}
+.imgleft {
+    margin-left: 25px;
+}
+.imgright {
+    margin-left: 25px;
+}
+ul {
+    font-size:0px;
+}
+ul li {
+    font-size:10px;
+    display:inline-block;
+    width:20px;
+    padding:4px;
+}
+a {
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.background {
+    background-color: #d4d4d4b6;
+    width: 450px;
+}
