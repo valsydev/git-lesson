@@ -1,0 +1,39 @@
+header{
+  position: relative;
+  width: auto;
+  padding: 15px;
+}
+.titul{
+  position: relative;
+  width: auto;
+  padding: 15px;
+}
+section{
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+main {
+  width: auto;
+  position: relative; 
+  padding: 15px;
+  margin: 10px; 
+}
+.description {
+  width: 250px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align:top;
+}
+div:nth-child(even) {
+  width: calc(100% - 255px)
+}
+li{
+  list-style-type: none;
+}
+.fa-address-card{
+  color: gold;
+}
+.fa-instagram{
+  color:indianred;
+}
