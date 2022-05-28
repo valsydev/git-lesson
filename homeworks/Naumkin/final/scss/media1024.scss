@@ -1,0 +1,400 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  #header {
+    margin: 60px;
+
+    .logo {
+      height: 62px;
+
+      h2 {
+        font-size: 38px;
+        line-height: 45px;
+      }
+    }
+
+    .menu {
+      margin: 0px 0px 16px 8px;
+      justify-content: flex-end;
+    }
+
+    .dot_separator {
+      display: flex;
+    }
+
+    .address {
+      display: flex;
+    }
+
+    .facebook {
+      display: flex;
+    }
+
+    .nav {
+      display: flex;
+      margin-top: 16px;
+      grid-column: 1/3;
+      grid-row: 2/4;
+
+      ul {
+        display: flex;
+      }
+
+      li {
+        padding-right: 15px;
+      }
+    }
+
+    .hamburger {
+      display: none;
+    }
+  }
+
+  h5 {
+    margin: 0px 60px 43px 60px;
+  }
+
+  #cases {
+    margin: 60px;
+    grid-template-columns: repeat(3, 1fr);
+
+    .cases_title {
+      border-radius: 12px 0px 0px 0px;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .cases_hillel {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .cases_wannabiz {
+      grid-column: 2/3;
+      grid-row: 1/3;
+    }
+
+    .cases_tapgerine {
+      border-top-right-radius: 12px;
+      grid-column: 3/4;
+      grid-row: 1/3;
+    }
+
+    .cases_3dlook {
+      border-bottom-left-radius: 12px;
+      grid-column: 1/2;
+      grid-row: 4/5;
+
+      &:hover {
+        border-radius: 0px;
+      }
+    }
+
+    .cases_adtelligent {
+      grid-column: 2/3;
+      grid-row: 4/5;
+    }
+
+    .cases_clikky {
+      border-radius: 0px 0px 12px 0px;
+      grid-column: 3/4;
+      grid-row: 4/5;
+
+      &:hover {
+        border-radius: 0px;
+      }
+    }
+
+    .info {
+      width: calc(3fr - 42px);
+      grid-column: 1/4;
+    }
+
+    .info_hillel,
+    .info_wannabiz,
+    .info_tapgerine {
+      grid-row: 3/4;
+    }
+
+    .info_3dlook,
+    .info_adtelligent,
+    .info_clikky {
+      grid-row: 5/6;
+    }
+  }
+
+  #footer {
+    height: 151px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .separator {
+      left: 61px;
+      right: 60px;
+    }
+
+    .contacts {
+      height: 100px;
+      width: 420px;
+      margin: 32px 0px 0px 60px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .address {
+      display: flex;
+      margin: 0px 21px 0px 0px;
+    }
+
+    .map a {
+      display: flex;
+      margin-left: 10px;
+    }
+
+    .facebook {
+      display: flex;
+      margin: 0px;
+    }
+
+    .phone {
+      display: flex;
+      margin-left: 5px;
+    }
+
+    .dot_separator {
+      display: flex;
+    }
+
+    .mail a {
+      display: flex;
+      margin-left: 10px;
+    }
+
+    .tov {
+      margin: 32px 60px 0px 0px;
+      height: 100px;
+      padding: 0;
+      align-items: flex-start;
+    }
+  }
+
+  #clients {
+    .clients {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .client {
+      height: 120px;
+    }
+
+    .client_one {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .client_two {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+
+    .client_three {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+
+    .client_four {
+      grid-column: 4/5;
+      grid-row: 1/2;
+    }
+
+    .client_five {
+      grid-column: 4/5;
+      grid-row: 2/3;
+    }
+
+    .client_six {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+
+    .client_seven {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .client_eight {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+
+    .client_nine {
+      grid-column: 4/5;
+      grid-row: 3/4;
+    }
+
+    .client_ten {
+      grid-column: 3/4;
+      grid-row: 3/4;
+    }
+
+    .client_eleven {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+
+    .client_twelve {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+  }
+
+  #colors,
+  #fonts,
+  #assets {
+    margin: 40px;
+  }
+
+  #teams {
+    display: none;
+  }
+
+  #teams2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    h5 {
+      text-align: start;
+      margin: 0px 60px;
+    }
+
+    .card_four {
+      height: 501px;
+      border-radius: 12px;
+      background-color: $silver;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 453px 85px auto;
+
+      .photo {
+        grid-column: 1/2;
+        grid-row: 1/6;
+      }
+
+      .caps {
+        margin: 40px 0px 3px 0px;
+        @include h3_caps;
+        color: $regular;
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
+
+      .liink_arrow {
+        margin-top: 42px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+      }
+
+      h1 {
+        margin: 0;
+        grid-column: 2/4;
+        grid-row: 2/3;
+      }
+
+      .name {
+        margin: 20px 0px 5px 0px;
+        @include name;
+        grid-column: 2/4;
+        grid-row: 3/4;
+      }
+
+      .position {
+        margin: 0px;
+        @include function;
+        grid-column: 2/4;
+        grid-row: 4/5;
+      }
+    }
+
+    .slider {
+      position: relative;
+      margin: 60px;
+
+      .slick-list {
+        overflow: hidden;
+      }
+
+      .slick-track {
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .slick-arrow {
+        position: absolute;
+        top: calc(50% - 40px);
+        z-index: 10;
+        font-size: 0;
+      }
+
+      .slick-arrow.slick-disabled {
+        opacity: 0.2;
+      }
+
+      .slick-arrow.slick-prev {
+        width: 35px;
+        height: 40px;
+        border: 0;
+        transform: rotateZ(180deg);
+        left: 0;
+        background-image: url(../images/main/liink_arrow.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+      }
+
+      .slick-arrow.slick-next {
+        width: 35px;
+        height: 40px;
+        border: 0;
+        right: 0;
+        background-image: url(../images/main/liink_arrow.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+      }
+
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .slick-dots li {
+        list-style: none;
+        margin: 5px;
+      }
+
+      .slick-dots li button {
+        background-color: $regular;
+        opacity: 0.2;
+        font-size: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 0px;
+        margin-left: 14px;
+      }
+
+      .slick-dots li button:hover {
+        opacity: 0.6;
+      }
+
+      .slick-dots li.slick-active button {
+        opacity: 1;
+      }
+    }
+  }
+}

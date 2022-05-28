@@ -1,0 +1,428 @@
+//---header---
+
+#header {
+  display: grid;
+  margin: 20px;
+
+  .logo {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 31px;
+    width: 50%;
+    display: flex;
+
+    h2 {
+      @include logo;
+      margin: 0px;
+    }
+
+    .slash {
+      height: 80%;
+    }
+
+    .symbol {
+      height: 80%;
+    }
+  }
+}
+
+//-menu-
+
+.menu {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  color: $text;
+  display: flex;
+  height: 24px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .language {
+    height: 24px;
+    display: flex;
+
+    a {
+      width: 29px;
+      height: 24px;
+      border-radius: 8px;
+      @include language;
+      color: $text;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background-color: $greyalt;
+      }
+
+      &:active,
+      &:focus {
+        background-color: $pink;
+        color: white;
+      }
+    }
+
+    .page {
+      background-color: $pink;
+      color: white;
+    }
+  }
+
+  .dot_separator {
+    @include dot_separator;
+    margin-left: 10px;
+    background-color: $separator;
+    display: none;
+  }
+
+  .address {
+    @include address;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .phone {
+    margin-left: 5px;
+
+    .phone_number {
+      @include phone;
+      color: $text;
+      text-decoration: none;
+
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+
+  .facebook {
+    height: 24px;
+    width: 24px;
+    background-image: url(../images/main/facebook_g.svg);
+    margin-left: 10px;
+    display: none;
+
+    &:hover {
+      background-image: url(../images/main/facebook.svg);
+    }
+  }
+}
+
+//-nav-
+
+.nav {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: none;
+  justify-content: flex-end;
+
+  ul {
+    display: block;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: $regular;
+
+    &:hover {
+      color: $pink;
+    }
+
+    &:active,
+    &:focus {
+      color: $pink;
+      text-decoration: underline;
+    }
+  }
+
+  .page {
+    color: $pink;
+    text-decoration: underline;
+  }
+}
+
+//humburger
+
+.hamburger-btn {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/main/hamburger.svg);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+
+.hamburger {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hamburger-nav {
+  transition: 0.2s;
+  transform: scaleX(0) translateX(0%);
+  transform-origin: right center;
+  opacity: 0;
+  visibility: hidden;
+  width: 348px;
+  line-height: 50px;
+  border-radius: 12px 12px 0px 0px;
+  background-color: #fff;
+  border: 2px solid $silver;
+  position: absolute;
+  z-index: 2;
+  top: 150%;
+  right: -15px;
+
+  .hamburger-btn {
+    width: 32px;
+    height: 32px;
+    margin: 12px 12px 20px auto;
+    background-color: $white;
+    background-image: url(../images/main/close.svg);
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-color: $white;
+      color: $pink;
+      transition: 0.1s;
+    }
+  }
+
+  a {
+    @include h3;
+    width: 335px;
+    height: 44px;
+    background-color: $silver;
+    text-decoration: none;
+    color: #24a3ff;
+    margin: 11px auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: $greyalt;
+      color: $pink;
+      transition: 0.1s;
+    }
+  }
+
+  .page {
+    color: $pink;
+  }
+}
+
+.hamburger-nav_active {
+  transform: scaleX(1) translateX(0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+//---cases---
+
+h5 {
+  margin: 0px 20px 43px 20px;
+}
+
+#cases {
+  margin: 30px 20px;
+  justify-content: center;
+  display: grid;
+
+  .cases_title {
+    height: 57px;
+    border-radius: 12px 12px 0px 0px;
+
+    .caps {
+      margin: 20px;
+      color: $pink;
+    }
+  }
+
+  .cases_clikky {
+    border-radius: 0px 0px 12px 12px;
+
+    &:hover {
+      border-radius: 0px;
+    }
+  }
+}
+
+.cases {
+  width: calc(1fr - 2px);
+  background-color: $silver;
+  border: 1px solid #ffffff;
+  display: grid;
+  align-items: end;
+
+  h3 {
+    margin: 20px 20px 0px 20px;
+    color: $soft;
+  }
+
+  .sentence {
+    margin: 10px 20px 20px 20px;
+    @include text;
+    color: $text;
+  }
+
+  &:hover {
+    background-color: $greyalt;
+  }
+
+  &:hover + .info {
+    position: relative;
+    display: grid;
+  }
+}
+
+.info {
+  width: calc(1fr - 42px);
+  padding: 20px;
+  border: 1px solid #ffffff;
+  background-color: $greyalt;
+  display: none;
+  justify-items: end;
+
+  .sentence {
+    @include text;
+    color: $balck;
+  }
+
+  .next {
+    width: 32px;
+    height: 32px;
+    border-radius: 25px;
+    background-color: $silver;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transform: rotatez(270deg);
+
+    &:hover {
+      background-color: $greyalt;
+    }
+  }
+}
+
+//---footer---
+
+#footer {
+  height: 378px;
+  width: 100%;
+  margin-top: auto;
+  position: relative;
+  display: grid;
+  bottom: 0px;
+  background-color: $silver;
+
+  .separator {
+    width: auto;
+    height: 0px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 2px;
+    border-top: 4px solid $separator;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .address {
+    @include address;
+    margin: 20px 0px 10px 0px;
+    color: $dark;
+  }
+
+  .map a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $regular;
+    text-decoration: none;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+
+  .facebook {
+    height: 38px;
+    width: 38px;
+    background-image: url(../images/main/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0px;
+
+    &:hover {
+      background-image: url(../images/main/facebook_r.svg);
+    }
+  }
+
+  .phone {
+    margin-left: 20px;
+
+    .phone_number {
+      @include phone;
+      color: $dark;
+      text-decoration: none;
+
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+  .dot_separator {
+    display: none;
+    @include dot_separator;
+    margin-left: 10px;
+    background-color: $separator;
+  }
+
+  .mail a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: $regular;
+
+    &:hover {
+      color: $pink;
+    }
+  }
+}
+
+.tov {
+  padding: 20px 10% 0px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    @include address;
+    color: $text;
+    text-align: center;
+  }
+}

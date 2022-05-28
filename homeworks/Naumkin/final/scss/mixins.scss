@@ -1,28 +1,28 @@
 @mixin p {
   font-size: 16px;
   line-height: 19px;
-  color: $textp;
+  color: $title;
 }
 
-@mixin p_bold {
+@mixin bold {
   font-size: 18px;
   line-height: 21px;
   font-weight: 700;
 }
 
-@mixin p_medium {
+@mixin medium {
   font-size: 18px;
   line-height: 21px;
   font-weight: 500;
 }
 
-@mixin p_regular {
+@mixin regular {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
-@mixin p_text {
+@mixin text {
   font-size: 18px;
   line-height: 26px;
 }
@@ -30,7 +30,7 @@
 @mixin h1 {
   font-size: 42px;
   line-height: 50px;
-  color: $gredtext;
+  color: $pink;
 }
 
 @mixin h2 {
@@ -52,7 +52,7 @@
   color: $dark;
 }
 
-@mixin h3_name {
+@mixin name {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -60,7 +60,7 @@
   color: $text;
 }
 
-@mixin h3_position {
+@mixin function {
   font-size: 16px;
   line-height: 22px;
   color: $text;
@@ -69,14 +69,7 @@
 @mixin h5 {
   font-size: 21px;
   line-height: 25px;
-  color: $textp;
-}
-
-@mixin caption {
-  font-size: 13px;
-  line-height: 20px;
-  text-align: center;
-  color: $textp;
+  color: $title;
 }
 
 @mixin h4 {
@@ -90,7 +83,7 @@
   line-height: 20px;
 }
 
-@mixin h2_logo {
+@mixin logo {
   font-weight: 400;
   font-size: 19px;
   line-height: 22px;
@@ -123,22 +116,4 @@
   width: 6px;
   height: 6px;
   border-radius: 5px;
-}
-
-@mixin a_map {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-@mixin a_mail {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
 }

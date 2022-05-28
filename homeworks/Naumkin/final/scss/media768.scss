@@ -1,0 +1,247 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #header {
+    margin: 40px;
+
+    .logo {
+      height: 62px;
+
+      h2 {
+        font-size: 38px;
+        line-height: 45px;
+      }
+    }
+
+    .menu {
+      margin: 0px 0px 16px 8px;
+      justify-content: flex-start;
+    }
+
+    .dot_separator {
+      display: flex;
+    }
+
+    .address {
+      display: flex;
+    }
+
+    .facebook {
+      display: flex;
+    }
+
+    .nav {
+      display: flex;
+      margin-top: 16px;
+      grid-column: 1/3;
+      grid-row: 3/4;
+
+      ul {
+        display: flex;
+      }
+
+      li {
+        padding-right: 15px;
+      }
+    }
+
+    .hamburger {
+      display: none;
+    }
+  }
+
+  h5 {
+    margin: 0px 40px 43px 40px;
+  }
+
+  #cases {
+    margin: 40px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .cases_title {
+      border-radius: 12px 0px 0px 0px;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .cases_hillel {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .cases_wannabiz {
+      border-top-right-radius: 12px;
+      grid-column: 2/3;
+      grid-row: 1/3;
+    }
+
+    .cases_tapgerine {
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+
+    .cases_3dlook {
+      grid-column: 2/3;
+      grid-row: 4/5;
+    }
+
+    .cases_adtelligent {
+      border-bottom-left-radius: 12px;
+      grid-column: 1/2;
+      grid-row: 6/7;
+
+      &:hover {
+        border-radius: 0px;
+      }
+    }
+
+    .cases_clikky {
+      border-radius: 0px 0px 12px 0px;
+      grid-column: 2/3;
+      grid-row: 6/7;
+
+      &:hover {
+        border-radius: 0px;
+      }
+    }
+
+    .info {
+      width: calc(2fr - 42px);
+      grid-column: 1/3;
+    }
+
+    .info_hillel,
+    .info_wannabiz {
+      grid-row: 3/4;
+    }
+
+    .info_tapgerine,
+    .info_3dlook {
+      grid-row: 5/6;
+    }
+
+    .info_adtelligent,
+    .info_clikky {
+      grid-row: 7/8;
+    }
+  }
+
+  #footer {
+    height: 240px;
+    width: 100%;
+    justify-content: center;
+
+    .separator {
+      left: 30px;
+      right: 30px;
+    }
+
+    .contacts {
+      height: 90px;
+      width: 400px;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .address {
+      display: flex;
+      margin: 0px;
+    }
+
+    .map a {
+      display: flex;
+      margin-left: 10px;
+    }
+
+    .facebook {
+      display: flex;
+      margin: 0px;
+    }
+
+    .phone {
+      display: flex;
+      margin-left: 5px;
+    }
+
+    .dot_separator {
+      display: flex;
+    }
+
+    .mail a {
+      display: flex;
+      margin-left: 10px;
+    }
+
+    .tov {
+      height: 100px;
+      padding: 0;
+      align-items: flex-start;
+    }
+  }
+
+  #clients {
+    .clients {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .client {
+      height: 110px;
+    }
+  }
+
+  #colors,
+  #fonts,
+  #assets {
+    margin: 40px;
+  }
+
+  #teams {
+    width: calc(100% - 80px);
+    margin: 0px 40px;
+    grid-column-gap: 5px;
+    grid-template-columns: repeat(2, 350px);
+    justify-content: space-between;
+
+    h5 {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      text-align: start;
+    }
+
+    .card_one {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .info_one {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+
+    .card_two {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
+    .info_two {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+
+    .card_three {
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+
+    .info_three {
+      grid-column: 1/2;
+      grid-row: 5/6;
+    }
+  }
+
+  #teams2 {
+    display: none;
+  }
+}
