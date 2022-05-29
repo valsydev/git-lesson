@@ -1,7 +1,4 @@
-body{
-    background-color: rgba(202, 246, 4, 0.603);
-}    
-.animation{
+  .animation{
     position: absolute;
     height: 300px;
     width: 200px;
@@ -25,7 +22,7 @@ body{
     0%{
         bottom:0;
     }
-    
+
    100%{
         bottom:150px;
     }
@@ -36,7 +33,6 @@ body{
     height: 10px;
     position: relative;
     border-radius: 50%;
-    z-index: -1;
     animation: shadow 2s ease-in-out infinite ;
 }
 @keyframes shadow{
