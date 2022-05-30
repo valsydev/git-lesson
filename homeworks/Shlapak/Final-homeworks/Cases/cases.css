@@ -1,0 +1,38 @@
+.main-cases {
+    display: flex;
+    flex-direction: column;
+}
+.cases {
+    background: var(--grey-bg);
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140px;
+}
+.successful-cases {
+    border-top-left-radius: 12px;
+    font-size: 14px;
+    font-family: 'TTNorms-Regular';
+    color: var(--accent);
+    height: 19px;
+}
+.cases-text {
+    font-family: 'TTNorms-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--main-color-soft);
+}
+.cases-subtitle {
+    font-family: 'TTNorms-Regular';
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--grey-text);
+}
+#clikki {
+    border-bottom-left-radius: 12px;
+}
+.cases-nav {
+    color: var(--accent);
+}

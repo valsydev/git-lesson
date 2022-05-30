@@ -1,0 +1,58 @@
+.team {
+  color: var(--accent);
+}
+
+.slider-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 12px;
+  background: var(--grey-bg);
+  height: 501px;
+}
+
+.slider-text {
+  padding-left: 40px;
+}
+.slider-text .a-nav {
+  margin: 0;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 20px;
+}
+.slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.slider .slick-dots li.slick-active button {
+  opacity: 1;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 16px;
+  height: 16px;
+  background-color: var(--active-regular);
+  border-radius: 50%;
+  opacity: 0.2;
+}

@@ -1,0 +1,43 @@
+.team {
+    color: var(--accent);
+}
+.slider-item {
+    display: flex;
+    border-radius: 12px;
+    background: var(--grey-bg);
+    height: 501px;
+}
+.slider-text {
+    padding-left: 40px;
+    .a-nav {
+        margin: 0;
+    }
+}
+.slick-track {
+    display: flex;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slider {
+    position: relative;
+    padding: 0px 20px;
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        li.slick-active button {
+            opacity: 1;
+        }
+        button {
+            font-size: 0;
+            width: 16px;
+            height: 16px;
+            background-color: var(--active-regular);
+            border-radius: 50%;
+            opacity: 0.2;
+        }
+    }
+}

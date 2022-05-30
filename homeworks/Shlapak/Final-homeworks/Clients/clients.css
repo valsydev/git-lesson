@@ -1,0 +1,49 @@
+#nav .clients {
+    color: var(--accent);
+}
+#clients-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.block-clients {
+    height: 90px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#hillel {
+    background: #1C4280;
+}
+#wannabiz {
+    background: #143646;
+}
+#tapgerine {
+    background: #F48B30;
+}
+#look {
+    background: #9E4DC3;
+}
+#ecoleasing {
+    background: #DCF3F9;
+}
+#clickky {
+    background: #C71C36;
+}
+#orangear {
+    background: #FD9339;
+}
+#infatek {
+    background: #EAEAEA;
+}
+#ultimate-card {
+    background: #000000;
+}
+#art-ptint {
+    background: #1D4568;
+}
+#city-park {
+    background: #282240;
+}
+#adtelligent {
+    background: #E2E2E4;
+}

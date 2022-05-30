@@ -1,0 +1,144 @@
+.main {
+    flex: 1 1 auto;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+}
+h5 {
+    color: #4B28DE;
+    font-family: 'TTNorms-Regular';
+    font-size: 21px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0px 0px 0px;
+}
+h4 {
+    margin: 10px 0px 41px;
+}
+h6 {
+    color: #4B28DE;
+    font-size: 16px;
+    font-family: 'TTNorms-Regular';
+}
+.h6 {
+    font-size: 21px;
+}
+.h5 {
+    margin-bottom: 20px;
+}
+
+.main-collor {
+    display: flex;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.main-collor .block-text {
+    margin-bottom: 40px;
+}
+
+.regular {
+    background: var(--main-color-regular);
+}
+
+.alt {
+    background: var(--main-color-alt);
+}
+
+.soft {
+    background: var(--main-color-soft);
+}
+
+.block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-text {
+    color: #4B28DE;
+    font-size: 13px;
+    font-family: 'TTNorms-Regular';
+}
+
+.accent {
+    background: var(--accent);
+    margin-bottom: 49px;
+}
+
+.active-collor {
+    display: flex;
+}
+
+.active-regular {
+    background: var(--active-regular);
+}
+
+.hover {
+    background: var(--active-hover);
+}
+
+.active {
+    background: var(--active);
+}
+
+.active-collor .block-text {
+    margin-bottom: 92px;
+}
+
+.grey-collor {
+    display: flex;
+}
+
+.bg {
+    background: var(--grey-bg);
+}
+
+.bg-alt {
+    background: var(--grey-bg-alt);
+}
+
+.grey-text {
+    background: var(--grey-text);
+}
+
+.separator {
+    background: var(--grey-separator);
+}
+
+.grey-collor .block-text {
+    margin-bottom: 50px;
+}
+
+.gradient {
+    display: flex;
+}
+
+.gradient-regular {
+    background: var(--gradient-regular);
+}
+
+.gradient-soft {
+    background: var(--gradient-soft);
+}
+
+.gradient-red {
+    background: var(--gradient-red);
+}
+
+.supersoft {
+    background: var(--gradient-supersoft);
+}
+
+.red-text {
+    background: var(--gradient-red-text);
+}
+.gradient .block-text {
+    margin-bottom: 101px;
+}
+#nav .home {
+    color: var(--accent);
+}

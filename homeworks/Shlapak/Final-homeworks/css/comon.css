@@ -1,0 +1,323 @@
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 22px 20px;
+}
+
+.header > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.header > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.header > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.header > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.header > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.header > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.header > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.header > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+
+.header > *:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+@font-face {
+  font-family: TTNorms-Bold;
+  src: url("../Fonts/TTNorms-Bold.otf");
+}
+@font-face {
+  font-family: TTNorms-Medium;
+  src: url("../Fonts/TTNorms-Medium.otf");
+}
+@font-face {
+  font-family: TTNorms-Regular;
+  src: url("../Fonts/TTNorms-Regular.otf");
+}
+:root {
+  --main-color-regular: #323264;
+  --main-color-alt: #46466E;
+  --main-color-soft: #686887;
+  --accent: #F0145A;
+  --active-regular: #24A3FF;
+  --active-hover: #0085FF;
+  --active: #006CCF;
+  --grey-bg: #F5F5FA;
+  --grey-bg-alt: #EDEDF7;
+  --grey-text: #B3B3BA;
+  --grey-separator: #E6E6F0;
+  --gradient-regular: linear-gradient(128.63deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
+  --gradient-soft: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  --gradient-red: linear-gradient(121.42deg, #F0145A 30.65%, #693264 107.33%);
+  --gradient-supersoft: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  --gradient-red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+}
+
+h1 {
+  background: var(--gradient-red-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TTNorms-Regular";
+  font-size: 42px;
+  line-height: 50px;
+}
+
+h2 {
+  color: var(--main-color-regular);
+  font-family: "TTNorms-Regular";
+  font-size: 32px;
+  line-height: 38px;
+}
+
+h3 {
+  color: var(--main-color-regular);
+  font-family: "TTNorms-Regular";
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4 {
+  color: var(--main-color-regular);
+  font-family: "TTNorms-Regular";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+p {
+  color: var(--main-color-regular);
+  font-family: "TTNorms-Regular";
+  font-size: 18px;
+  line-height: 26px;
+}
+
+ul {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+  font-family: "TTNorms-Regular";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  width: 29px;
+  height: 24px;
+}
+
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+.language a:focus {
+  background: var(--accent);
+  border-radius: 8px;
+  color: var(--grey-bg);
+}
+
+a {
+  text-decoration: none;
+  color: var(--grey-text);
+}
+a :hover {
+  color: var(--accent);
+}
+
+.a-nav {
+  color: var(--active-regular);
+  font-size: 18px;
+  font-family: "TTNorms-Regular";
+  margin-left: 15px;
+}
+
+.number {
+  font-family: "TT Norms";
+  font-size: 16px;
+  color: var(--grey-text);
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.logo-text {
+  color: var(--main-color-regular);
+  font-family: "TTNorms-Regular";
+  font-size: 19px;
+}
+
+.fa-facebook {
+  color: var(--active-regular);
+  margin-top: 20px;
+}
+
+.copyright-footer {
+  font-family: "TTNorms-Regular";
+  font-size: 16px;
+  color: var(--grey-text);
+  margin: 20px;
+}
+
+#nav {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column-align: self-end;
+      justify-self: self-end;
+  display: none;
+}
+
+.footer {
+  background: var(--grey-bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 378px;
+}
+.footer a:nth-child(2) {
+  color: var(--active-regular);
+  font-size: 12px;
+  font-family: "TTNorms-Regular";
+}
+.footer a:nth-child(5) {
+  color: var(--active-regular);
+  font-family: "TTNorms-Regular";
+  font-size: 16px;
+}
+.footer a:hover {
+  color: var(--accent);
+}
+
+.burger-menu {
+  display: block;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  justify-self: flex-end;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+.burger-menu .active-button::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 9px;
+}
+.burger-menu .active-button::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 9px;
+}
+.burger-menu .active-button span {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.burger-menu :before {
+  content: "";
+  background-color: var(--main-color-regular);
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  top: 10px;
+  right: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.burger-menu :after {
+  content: "";
+  background-color: var(--main-color-regular);
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  top: 22px;
+  right: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.burger-menu span {
+  background-color: var(--main-color-regular);
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  right: 0;
+  top: 16px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
