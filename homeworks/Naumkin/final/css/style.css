@@ -355,7 +355,7 @@ h5 {
 .info .next {
   width: 32px;
   height: 32px;
-  border-radius: 25px;
+  border-radius: 50%;
   background-color: #f5f5fa;
   display: -ms-grid;
   display: grid;

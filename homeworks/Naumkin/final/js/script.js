@@ -14,38 +14,38 @@ $(document).ready(function(){
   });
 });
 
-$('.cases_hillel').on('click', function(e) {
+$('.hillel_open').on('click', function(e) {
   e.preventDefault();
-  $(this).toggleClass('cases_hillel_active');
+  $(this).toggleClass('hillel_open_active');
   $('.info_hillel').toggleClass('info_hillel_active');
 });
 
-$('.cases_wannabiz').on('click', function(e) {
+$('.wannabiz_open').on('click', function(e) {
   e.preventDefault();
-  $(this).toggleClass('cases_wannabiz_active');
+  $(this).toggleClass('wannabiz_open_active');
   $('.info_wannabiz').toggleClass('info_wannabiz_active');
 });
 
-$('.cases_tapgerine').on('click', function(e) {
+$('.tapgerine_open').on('click', function(e) {
   e.preventDefault();
-  $(this).toggleClass('cases_tapgerine_active');
+  $(this).toggleClass('tapgerine_open_active');
   $('.info_tapgerine').toggleClass('info_tapgerine_active');
 });
 
-$('.cases_3dlook').on('click', function(e) {
+$('.3dlook_open').on('click', function(e) {
   e.preventDefault();
-  $(this).toggleClass('cases_3dlook_active');
+  $(this).toggleClass('3dlook_open_active');
   $('.info_3dlook').toggleClass('info_3dlook_active');
 });
 
-$('.cases_adtelligent').on('click', function(e) {
+$('.adtelligent_open').on('click', function(e) {
   e.preventDefault();
-  $(this).toggleClass('cases_adtelligent_active');
+  $(this).toggleClass('adtelligent_open_active');
   $('.info_adtelligent').toggleClass('info_adtelligent_active');
 });
 
-$('.cases_clikky').on('click', function(e) {
+$('.clikky_open').on('click', function(e) {
   e.preventDefault();
-  $(this).toggleClass('cases_clikky_active');
+  $(this).toggleClass('clikky_open_active');
   $('.info_clikky').toggleClass('info_clikky_active');
 });
