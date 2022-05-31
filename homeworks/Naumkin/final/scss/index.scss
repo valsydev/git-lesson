@@ -261,7 +261,6 @@ h5 {
 }
 
 .cases {
-  width: calc(1fr - 2px);
   background-color: $silver;
   border: 1px solid #ffffff;
   display: grid;
@@ -281,15 +280,9 @@ h5 {
   &:hover {
     background-color: $greyalt;
   }
-
-  &:hover + .info {
-    position: relative;
-    display: grid;
-  }
 }
 
 .info {
-  width: calc(1fr - 42px);
   padding: 20px;
   border: 1px solid #ffffff;
   background-color: $greyalt;
@@ -315,6 +308,15 @@ h5 {
       background-color: $greyalt;
     }
   }
+}
+
+.info_wannabiz_active,
+.info_hillel_active,
+.info_tapgerine_active,
+.info_3dlook_active,
+.info_adtelligent_active,
+.info_clikky_active {
+  display: grid;
 }
 
 //---footer---
