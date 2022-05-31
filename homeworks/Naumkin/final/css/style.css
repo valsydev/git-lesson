@@ -324,6 +324,7 @@ h5 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  cursor: pointer;
 }
 .cases h3 {
   margin: 20px 20px 0px 20px;
