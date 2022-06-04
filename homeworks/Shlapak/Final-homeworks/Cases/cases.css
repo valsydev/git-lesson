@@ -1,6 +1,7 @@
 .main-cases {
     display: flex;
     flex-direction: column;
+    padding-bottom: 45px;
 }
 .cases {
     background: var(--grey-bg);
@@ -35,4 +36,7 @@
 }
 .cases-nav {
     color: var(--accent);
+}
+.cases:hover {
+    background: var(--grey-bg-alt);
 }

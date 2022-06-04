@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.burger-menu').click(function() {
-        $('#nav').toggleClass('open'); 
+        $('#nav-mobile').toggleClass('open'); 
 });
 });
 $(document).ready(function() {

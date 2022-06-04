@@ -2,32 +2,39 @@ html,
 body {
     height: 100%;
 }
+
 .wrapper {
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 22px 20px;
 }
+
 .main {
     flex: 1 1 auto;
 }
+
 @font-face {
     font-family: TTNorms-Bold;
     src: url('../Fonts/TTNorms-Bold.otf');
 }
+
 @font-face {
     font-family: TTNorms-Medium;
     src: url('../Fonts/TTNorms-Medium.otf');
 }
+
 @font-face {
     font-family: TTNorms-Regular;
     src: url('../Fonts/TTNorms-Regular.otf');
 }
+
 :root {
     --main-color-regular: #323264;
     --main-color-alt: #46466E;
@@ -46,6 +53,7 @@ body {
     --gradient-supersoft: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     --gradient-red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
 }
+
 h1 {
     background: var(--gradient-red-text);
     -webkit-background-clip: text;
@@ -54,38 +62,45 @@ h1 {
     font-size: 42px;
     line-height: 50px;
 }
+
 h2 {
     color: var(--main-color-regular);
     font-family: 'TTNorms-Regular';
     font-size: 32px;
     line-height: 38px;
 }
+
 h3 {
     color: var(--main-color-regular);
     font-family: 'TTNorms-Regular';
     font-size: 24px;
     line-height: 28px
 }
+
 h4 {
     color: var(--main-color-regular);
     font-family: 'TTNorms-Regular';
     font-size: 18px;
     line-height: 21px;
 }
+
 p {
     color: var(--main-color-regular);
     font-family: 'TTNorms-Regular';
     font-size: 18px;
     line-height: 26px;
 }
+
 ul {
     padding-left: 0px;
     margin: 0px;
 }
+
 .language {
     display: flex;
     grid-row: 1 / 2;
 }
+
 li {
     list-style-type: none;
     font-family: 'TTNorms-Regular';
@@ -95,24 +110,29 @@ li {
     width: 29px;
     height: 24px;
 }
+
 a {
     text-decoration: none;
     color: var(--grey-text);
 }
+
 .language a:focus {
     background: var(--accent);
     border-radius: 8px;
     color: var(--grey-bg);
 }
+
 a:hover {
     color: var(--accent);
 }
+
 .a-nav {
     color: var(--active-regular);
     font-size: 18px;
     font-family: 'TTNorms-Regular';
     margin-left: 15px;
 }
+
 .number {
     font-family: 'TT Norms';
     font-size: 16px;
@@ -120,54 +140,30 @@ a:hover {
     justify-self: end;
     grid-column: 2 / 4;
 }
+.header-adress {
+    grid-column: 3 / 4;
+    display: none;
+    grid-row: 1 / 2;
+}
 #logo {
     display: flex;
     grid-row: 2 / 3;
+    grid-column: 1 / 3;
 }
+
 .logo-text {
     color: var(--main-color-regular);
     font-family: 'TTNorms-Regular';
     font-size: 19px;
 }
-.footer {
-    background: var(--grey-bg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 378px;
-}
-.footer-adress {
-    font-family: 'TTNorms-Regular';
-    font-size: 16px;
-    padding: 23px 0px 10px;
-}
-footer a:nth-child(2) {
-    color: var(--active-regular);
-    font-size: 12px;
-    font-family: 'TTNorms-Regular';
-}
-footer a:nth-child(5) {
-    color: var(--active-regular);
-    font-family: 'TTNorms-Regular';
-    font-size: 16px;
-}
-.fa-facebook {
-    color: var(--active-regular);
-    margin-top: 20px;
-}
-.copyright-footer {
-    font-family: 'TTNorms-Regular';
-    font-size: 16px;
-    color: var(--grey-text);
-    margin: 20px;
-}
-.footer a:hover {
-    color: var(--accent);
-}
+
 #nav {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
     justify-self: self-end;
+    display: none;
+}
+#nav-mobile {
     display: none;
 }
 .burger-menu {
@@ -177,18 +173,23 @@ footer a:nth-child(5) {
     width: 32px;
     justify-self: flex-end;
     grid-column: 3 / 4;
+    grid-row: 2 / 3;
 }
+
 .burger-menu.active-button::before {
     transform: rotate(45deg);
     top: 9px;
 }
+
 .burger-menu.active-button::after {
     transform: rotate(-45deg);
     top: 9px;
 }
+
 .burger-menu.active-button span {
     transform: scale(0);
 }
+
 .burger-menu:before {
     content: "";
     background-color: var(--main-color-regular);
@@ -199,6 +200,7 @@ footer a:nth-child(5) {
     right: 0;
     transition: all 0.3s ease 0s;
 }
+
 .burger-menu:after {
     content: "";
     background-color: var(--main-color-regular);
@@ -209,6 +211,7 @@ footer a:nth-child(5) {
     right: 0;
     transition: all 0.3s ease 0s;
 }
+
 .burger-menu span {
     background-color: var(--main-color-regular);
     position: absolute;
@@ -217,4 +220,65 @@ footer a:nth-child(5) {
     right: 0;
     top: 16px;
     transition: all 0.3s ease 0s;
+}
+
+footer {
+    display: flex;
+    height: 150px;
+    padding: 30px 60px;
+    justify-content: space-between;
+    background: var(--grey-bg);
+}
+
+.footer-adress {
+    font-family: 'TTNorms-Regular';
+    font-size: 16px;
+}
+
+.left-footer {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.adress-map {
+    display: flex;
+    align-items: baseline;
+
+}
+.facebook-contact-mail {
+    display: flex;
+    align-items: baseline;
+}
+.footer-map {
+    margin-left: 40px;
+    color: var(--active-regular);
+    font-size: 12px;
+    font-family: 'TTNorms-Regular';
+    position: relative;
+}
+.footer-contact {
+    margin-left: 17px;
+    position: relative;
+}
+.footer-mail {
+    margin-left: 26px;
+    color: var(--active-regular);
+    font-family: 'TTNorms-Regular';
+    font-size: 16px;
+    position: relative;
+}
+.fa-facebook {
+    color: var(--active-regular);
+    margin-top: 20px;
+}
+.footer-copyright {
+    font-family: 'TTNorms-Regular';
+    font-size: 16px;
+    color: var(--grey-text);
+}
+.footer a:hover {
+    color: var(--accent);
+}
+.footer a {
+    color: var(--active-regular);
 }

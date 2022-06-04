@@ -29,6 +29,7 @@ h6 {
 
 .main-collor {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .block {
@@ -56,6 +57,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .name-text {
@@ -71,6 +73,7 @@ h6 {
 
 .active-collor {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .active-regular {
@@ -91,6 +94,7 @@ h6 {
 
 .grey-collor {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .bg {
@@ -115,6 +119,7 @@ h6 {
 
 .gradient {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .gradient-regular {
@@ -139,6 +144,6 @@ h6 {
 .gradient .block-text {
     margin-bottom: 101px;
 }
-#nav .home {
+#nav-mobile .home {
     color: var(--accent);
 }
