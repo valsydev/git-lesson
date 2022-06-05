@@ -1,0 +1,39 @@
+.footer-container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "footer-address"
+      "footer-map"
+      "footer-facebook-logo"
+      "footer-tel"
+      "footer-mail"
+      "footer-co";
+    }
+  
+  .footer-item {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  
+  .footer-address { 
+    grid-area: footer-address;
+    color: var(--main-regular);
+  }
+
+  .footer-map { grid-area: footer-map; }
+  
+  .footer-facebook-logo { grid-area: footer-facebook-logo; }
+  
+  .footer-tel { 
+    grid-area: footer-tel;
+    color: var(--main-alt);
+    }
+  
+  .footer-mail { grid-area: footer-mail; }
+  
+  .footer-co { grid-area: footer-co; }
+  

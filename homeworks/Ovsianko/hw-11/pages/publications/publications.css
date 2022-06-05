@@ -1,0 +1,83 @@
+body {
+    background: var(--grey-bg);
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+img {
+    object-fit: cover;
+}
+
+a {
+    padding: 20px 0px 0px 20px;
+}
+
+data {
+    padding: 10px 20px 20px 20px;
+    color: var();
+    
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+.pub {
+    border-radius: 8px;
+    margin: 20px;
+    background: white;
+    max-width: 100%;
+}
+
+.h1-pub {
+    font-family: 'TT Norms';
+    font-size: 32px;
+    line-height: 38px;
+    margin: 3px 0px 0px 0px;
+}
+
+.a-pub {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--active-regular);
+}
+
+.a-pub:hover {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: var(--active-regular);
+    border: none;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    color: white;
+    margin: 60px;
+    padding: 16px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover{background-color: var(--active-hover);}
+
+button:active{background-color: var(--active-active);}
+
+.p-desktop-pub{
+    display: none;
+}

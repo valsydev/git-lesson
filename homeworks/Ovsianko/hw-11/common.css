@@ -1,0 +1,137 @@
+:root {
+    --main-regular: #323264;
+    --main-alt: #46466E;
+    --main-soft: #686887;
+    --accent: #F0145A;
+    --active-regular: #24A3FF;
+    --active-hover: #0085FF;
+    --active-active: #006CCF;
+    --grey-bg: #F5F5FA;
+    --grey-bg-alt: #EDEDF7;
+    --grey-text: #B3B3BA;
+    --grey-separator: #E6E6F0;
+    --gradient-regular: linear-gradient(128.63deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
+    --gradient-soft: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    --gradient-red: linear-gradient(121.42deg, #F0145A 30.65%, #693264 107.33%);
+    --gradient-supersoft: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    --gradient-red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    --clients-hillel-bg:#1C4280;
+    --clients-wannabiz-bg:#143646;
+    --clients-tapgerine-bg:#F48B30;
+    --clients-3dlook-bg:#9E4DC3;
+    --clients-ecoleasing-bg:#DCF3F9;
+    --clients-clickky-bg:#C71C36;
+    --clients-orangear-bg:#FD9339;
+    --clients-infratek-bg:#EAEAEA;
+    --clients-ultimatecard-bg:#000000;
+    --clients-artprintstudio-bg:#1D4568;
+    --clients-citypark-bg:#282240;
+    --clients-adtelligent-bg:#E2E2E4;
+    --white: #fff;
+    --negative-hamburger:#EC6F5D;
+    
+
+}
+
+@font-face {
+    font-family: "TT Norms";
+    font-style: normal;
+    font-weight: 400;
+    src: local("TT Norms"),
+         url("./Font-family/TT-Norms/TTNorms-Regular.woff2") format("woff2"),
+         url("./Font-family/TT-Norms/TTNorms-Regular.woff") format("woff");
+}
+
+h1 {
+    background: var(--gradient-red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;  
+}
+
+h2 {
+    font-family: 'TT Norms';
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--main-regular);
+}
+
+h3 {font-family: 'TT Norms';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: var(--main-soft);
+    text-align: left;
+}
+
+.caps {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: var(--accent);
+}
+
+h4 {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey-text);
+}
+
+p {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey-text);
+}
+
+ul {
+    border-radius: nullpx;
+    color: var(--accent);
+    line-height: 34px;
+}
+
+ol {
+    border-radius: nullpx;
+    color: var(--accent);
+    line-height: 34px;
+}
+
+ol span {
+    color: #000;
+}
+
+li span {
+    color: #000;
+}
+
+a { 
+    font-family: 'TT Norms';
+    color: var(--active-regular);
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--accent);
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: bold;
+}
