@@ -1,0 +1,81 @@
+main .caps {
+    display: flex;
+    justify-content: center;
+    color: var(--main-regular);
+}
+
+#clients {
+    margin: 20px 0px;
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hillel {
+    background-color: #1C4280;
+}
+
+.wannabiz {
+    background-color: #143646;
+}
+
+.tapgerine {
+    background-color: #F48B30;
+}
+
+.threedlook {
+    background-color: #9E4DC3;
+}
+
+.orangear {
+    background-color: #FD9339;
+}
+
+.adtelligent {
+    background-color: #E2E2E4;
+}
+
+.clickky {
+    background-color: #C71C36;
+}
+
+.ecoleasing {
+    background-color: #DCF3F9;
+}
+
+.infratek {
+    background-color: #EAEAEA;
+}
+
+.citypark {
+    background-color: #282240;
+}
+
+.artprint {
+    background-color: #1D4568;
+}
+
+.ultimatecard {
+    background-color: #000;
+}
+
+@media screen and (min-width: 768px) {
+    .clients {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+    }
+
+    .area {
+          height: 110px;
+    }
+
+}
