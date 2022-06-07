@@ -1,0 +1,42 @@
+  .animation{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.ball {
+    background-color: rgb(8, 0, 236);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left:0;
+    animation: ball 1s ease-in-out infinite alternate;
+}
+@keyframes ball{
+    0%{
+        bottom:0;
+    }
+
+   100%{
+        bottom:150px;
+    }
+}
+.shadow{
+    background-color: rgba(121, 121, 121, 0.514);
+    width: 100px;
+    height: 10px;
+    position: relative;
+    border-radius: 50%;
+    animation: shadow 2s ease-in-out infinite ;
+}
+@keyframes shadow{
+    50%{
+        transform: scale(0.5);
+    }
+}
