@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contain {
+    display:flex;
+    margin-top: 18px;
+  }
+  button {
+    color: #B3B3BA;
+    border-radius: 6px;
+    border:none;
+    margin-left:4px;
+    background-color: white;
+  }
+  .number {
+    color: #B3B3BA;
+  }
+  button:hover {
+    color:mediumslateblue;
+    font-size: 20px;
+    background-color: #F0145A;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5px;
+    }
+    #first {
+        background-color:  #F0145A;
+        color:white;
+    }
+.main-cases {
+    display: flex;
+    flex-direction: column;
+}
+.cases {
+    background-color: #F5F5FA;
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140px;
+}
+.successful-cases {
+    border-top-left-radius: 12px;
+    font-size: 14px;
+    color: var(--accent);
+    height: 19px;
+    color: #F0145A;
+    font-size: 16px;
+}
+.cases-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--main-color-soft);
+}
+.cases-subtitle {
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--grey-text);
+}
+#clikki {
+    border-bottom-left-radius: 12px;
+}
+.cases-nav {
+    color: var(--accent);
+}
+@media screen and (min-width: 768px) {
+    #clients-box {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    .main-cases {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 200px 200px;
+    }
+
+    .cases {
+        height: 100%;
+    }
+
+    .successful-cases {
+        justify-content: space-between;
+    }
+
+    #d-look {
+        grid-row: 3 / 4;
+        border-bottom-left-radius: 12px;
+    }
+
+    #adtelligent {
+        grid-row: 3 / 4;
+    }
+
+    #clikki {
+        grid-row: 3 / 4;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 12px;
+    }
+
+    #hillel {
+        grid-column: 1 / 2;
+    }
+
+    #wannabiz {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    #tapgerine {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+}
+}
+a {
+    text-decoration: none;
+    color: #B3B3BA;
+    font-size: 12px;
+}
+.noize {
+    text-align: center;
+    background-color: #F5F5FA;
+    padding-top: 40px;
+}
+p {
+    color: #B3B3BA;
+    padding-top: 30px;
+  }
+  #site {
+      color: #24A3FF;
+  }
+  .vector {
+      padding-top: 5px;
+  }
+ 
+ 

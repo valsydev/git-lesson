@@ -1,0 +1,145 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.contain {
+  display:flex;
+  margin-top: 18px;
+}
+button {
+  color: #B3B3BA;
+  border-radius: 6px;
+  border:none;
+  margin-left:4px;
+  background-color: white;
+}
+.number {
+  color: #B3B3BA;
+}
+button:hover {
+  color:mediumslateblue;
+  font-size: 20px;
+  background-color: #F0145A;
+  }
+  #first {
+    background-color:  #F0145A;
+    color:white;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+  }
+p {
+    text-align: center;
+    color: #323264;
+}
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+  }
+  
+  .flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    background-color: #cda;
+    height: 120px;
+    align-items: center;
+  }
+  
+  .flex:after,
+  .item {
+    width: calc(100% / 4 - 0px);
+  }
+  .conteiner {
+      width: 100%;
+      
+  }
+  #hilel {
+background-color: #1C4280;
+  }
+  #wana {
+background-color: #143646;
+  }
+  #tap {
+background-color: #F48B30;
+  }
+  #look {
+background-color: #9E4DC3;
+  }
+  #orang {
+background-color: #FD9339;
+  }
+  #gent {
+background-color: #E2E2E4;
+  }
+  #clik {
+background-color: #C71C36;
+  }
+  #leas{
+background-color: #DCF3F9;
+  }
+  #infra {
+background-color: #EAEAEA;
+  }
+  #park {
+background-color: #282240;
+  }
+  #studio {
+background-color: #1D4568;
+  }
+  #card {
+background-color: #000000;
+  }
+  @media (max-width: 700px) {
+    .item {
+      width: calc(100% / 2 - 0px);
+    }
+  }
+  .footer {
+    display: flex;
+  }
+  a {
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  .over {
+    display: flex;
+    margin-top: 10px;
+  }
+  .number {
+    display: flex;
+  }
+  .numb {
+    margin-left: 10px;
+  }
+  .blow {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    top: 10px;
+  }
+  @media (max-width: 700px) {
+    .footer {
+      text-align: center;
+      flex-direction: column;
+    }
+    .over {
+      text-align: center;
+      flex-direction: column;
+    }
+    .blow {
+      position: relative;
+    }
+    .number {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  

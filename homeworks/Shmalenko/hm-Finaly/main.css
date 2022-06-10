@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contain {
+    display:flex;
+    margin-top: 18px;
+  }
+  button {
+    color: #B3B3BA;
+    border-radius: 6px;
+    border:none;
+    margin-left:4px;
+    background-color: white;
+  }
+  .number {
+    color: #B3B3BA;
+  }
+  button:hover {
+    color:mediumslateblue;
+    font-size: 20px;
+    background-color: #F0145A;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5px;
+    }
+#first {
+background-color: #323264;
+}
+#second {
+background-color: #46466E;
+}
+#third {
+background-color: #686887;
+}
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.main {
+    display: flex;
+
+}
+#accent {
+    background-color: #F0145A;
+}
+#two {
+background-color: #24A3FF;
+}
+#three {
+background-color: #0085FF;
+}
+#four {
+background-color: #006CCF;
+}
+.active {
+    display: flex;
+}
+#five {
+background-color: #F5F5FA;
+}
+#six {
+background-color: #EDEDF7;
+}
+#seven {
+background-color: #B3B3BA;
+}
+#eight {
+background-color: #E6E6F0;
+}
+.grey {
+    display: flex;
+}
+#nine {
+    background:  linear-gradient(to bottom right,#323264,#323264,#A54B5F
+    )
+}
+#ten {
+    background: linear-gradient(70deg,#323264,#323264,#7A425E)
+}
+#eleven {
+    background: linear-gradient(121.42deg, #F0145A 30.65%, #693264 107.33%);
+}
+#twelf {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+#thirtin {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+}
+.gradient {
+    display: flex;
+}
+    h5 {
+        color: #4B28DE;
+    }
+    h3 {
+        color: #4B28DE;
+    }
+    #fols {
+        color: black;
+    }
+    #temp {
+        color: black;
+    }
+    #twice {
+        color: #4B28DE;
+    }
+    a {
+        text-decoration: none;
+    }
+.enter {
+display: flex;
+}
+.exit {
+display: flex;
+margin-left: 100px;
+}
+.assets {
+    display: flex;
+}
+#footer {
+    display: flex;
+    margin-top: 50px;
+}
+.pore {
+display: flex;
+margin-left: 25px;
+}
+.noize {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.easy {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.over {
+    background-color: #F5F5FA;
+}
+.numbe {
+    padding-top: 38px;
+}
+.face {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    right: 30px;
+    top: 18px;
+}
