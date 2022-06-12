@@ -1,0 +1,57 @@
+:root {
+  --main-regular: #323264;
+  --main-alt: #46466e;
+  --main-soft: #686887;
+  --accent: #f0145a;
+  --grey-text: #b3b3ba;
+  --grey-bg: #f5f5fa;
+  --grey-bg-alt: #ededf7;
+  --grey-bg-separator: #e6e6f0;
+  --active-regular: #24a3ff;
+  --active-hover: #0085ff;
+  --active-active: #006ccf;
+  --gradient-red-text: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  --gradient-soft: linear-gradient(
+    42.01deg,
+    #323264 14.33%,
+    #323264 51.39%,
+    #7a425e 87.53%
+  );
+  --gradient-red: linear-gradient(121.42deg, #f0145a 30.65%, #693264 107.33%);
+  --gradient-supersoft: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  background: var(--gradient-red-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Nunito", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  color: var(--main-regular);
+}
+
+.grey {
+  color: var(--grey-text);
+}
+
+.p-soft {
+  color: var(--main-soft);
+}
+
+a {
+  color: var(--active-regular);
+  text-decoration: none;
+}

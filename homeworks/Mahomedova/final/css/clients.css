@@ -1,0 +1,74 @@
+h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+.container {
+    margin-top: 30px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 90px);
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-1 {
+    background: #1C4280;
+}
+
+#item-2 {
+    background: #143646;
+}
+
+#item-3 {
+    background: #F48B30;
+}
+
+#item-4 {
+    background: #9E4DC3;
+}
+
+#item-5 {
+    background: #DCF3F9;
+}
+
+#item-6 {
+    background: #C71C36;
+}
+
+#item-7 {
+    background: #FD9339;
+}
+
+#item-8 {
+    background: #EAEAEA;
+}
+
+#item-9 {
+    background: #000000;
+}
+
+#item-10 {
+    background: #1D4568;
+}
+
+#item-11 {
+    background: #282240;
+}
+
+#item-12 {
+    background: #E2E2E4;
+}
+
+
+@media screen and (min-width: 375px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 120px);
+    }
+}

@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  background: var(--grey-bg);
+}
+
+.right-bar {
+  padding: 40px;
+}
+
+#partner {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+
+.link-team {
+  color: #24a3ff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #24a3ff;
+  margin: 0px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: var(--grey-text);
+}
+
+.slick-dots {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.slick-dots button {
+  background: #24a3ff;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-right: 14px;
+  font-size: 0;
+}
+
+.link-team {
+  display: flex;
+  justify-content: start;
+}
+
+#link-arrow {
+  align-self: center;
+}

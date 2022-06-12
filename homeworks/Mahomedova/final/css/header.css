@@ -1,0 +1,200 @@
+.top-bar-contacts {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 24px;
+  color: #b3b3ba;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+
+.lang {
+  width: 20%;
+}
+
+button {
+  border: none;
+  background: none;
+  color: #b3b3ba;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+button:active,
+button:focus {
+  background: #f0145a;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.tel {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.logo-svg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo-svg span {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+.symbol,
+.slash-svg {
+  align-self: start;
+}
+
+.logo-item {
+  align-self: stretch;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  color: #323264;
+}
+
+.logo-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  align-items: flex-end;
+}
+
+.nav.open {
+  display: flex;
+}
+
+.nav a {
+  font-size: 18px;
+  line-height: 21px;
+}
+.nav-content {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  padding-top: 64px;
+  border-radius: 20px 20px 0 0;
+}
+.nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nav .close {
+  width: 18px;
+  height: 18px;
+  background: red;
+  cursor: pointer;
+  top: 19px;
+  right: 19px;
+  position: absolute;
+}
+a:active {
+  color: #f0145a;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 375px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 60px 50px;
+  }
+
+  .logo-svg {
+    display: none;
+  }
+
+  .logo-svg-desktop {
+    display: flex;
+  }
+
+  .adress-desktop,
+  .fb-desktop,
+  .dot {
+    display: block;
+  }
+
+  .dot {
+    border-radius: 50%;
+    background: #e6e6f0;
+    width: 6px;
+    height: 6px;
+  }
+
+  .lang {
+    width: 50%;
+  }
+
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-bar-contacts {
+    display: flex;
+    width: 100%;
+    height: 24px;
+  }
+
+  ul.lang {
+    width: 20%;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: end;
+    height: 24px;
+
+    position: static;
+    width: auto;
+
+    background: none;
+    align-items: initial;
+  }
+  .nav-content {
+    position: static;
+    background: none;
+    width: auto;
+    padding-top: 0;
+    border-radius: 0;
+  }
+  .nav .close {
+    display: none;
+  }
+  .nav ul {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .nav li {
+    margin: 15px;
+  }
+}

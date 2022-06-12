@@ -1,0 +1,266 @@
+
+body {
+    color: #4B28DE;
+    font-family: TT Norms;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+span,
+p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#header {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#colors {
+    margin-top: 41px;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+#main {
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: center;
+
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#main-regular {
+    background: #323264;
+}
+
+#main-alt {
+    background: #46466E;
+}
+
+#main-soft {
+    background: #686887;
+}
+
+div.container-text {
+    height: 20px;
+    font-size: 13px;
+}
+
+#accent-p {
+    margin-top: 50px;
+}
+
+#accent-box {
+    background: #F0145A;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+#active-p {
+    margin-top: 79px;
+}
+
+#active-reg {
+    background: #24A3FF;
+}
+
+#active-hover {
+    background: #0085FF;
+}
+
+#active-active {
+    background: #006CCF;
+}
+
+#grey-p {
+    margin-top: 92px;
+}
+
+#grey-bg {
+    background: #F5F5FA;
+}
+
+#grey-alt {
+    background: #EDEDF7;
+}
+
+#grey-text {
+    background: #B3B3BA;
+}
+
+#separator {
+    background: #E6E6F0;
+}
+
+#gradient-p {
+    margin-top: 50px;
+}
+
+#reg-g {
+    background: linear-gradient(128.63deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
+}
+
+#soft-g {
+    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+
+#supersoft-g {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+#red-g {
+    background: linear-gradient(121.42deg, #F0145A 30.65%, #693264 107.33%);
+}
+
+#red-text-g {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+}
+
+#fonts-p {
+    margin-top: 101px;
+    font-size: 21px;
+    line-height: 25px;
+
+}
+
+.fonts-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.fonts-box div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#left-font-box {
+    width: 57%;
+}
+
+#right-font-box {
+    justify-content: end;
+    color: #000000;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#medium {
+    font-weight: 500;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: 10px;
+}
+
+.h-3 {
+    margin-top: 17px;
+}
+
+.caps {
+    margin-top: 21px;
+}
+
+.h-4 {
+    margin-top: 27px;
+}
+
+.p-head {
+    margin-top: 25px;
+}
+
+.paragraph {
+    margin-right: 123px;
+}
+
+li,
+.paragraph p {
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+}
+
+li::marker {
+    color: #F0145A;
+}
+
+#ol-p {
+    margin-top: 53px;
+}
+
+#ul-p {
+    margin-top: 40px;
+}
+
+.p-link {
+    margin-top: 63px;
+}
+
+a {
+    margin-top: 10px;
+    margin-right: 27px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.a-hover {
+    color: #F0145A;
+}
+
+.p-assets {
+    margin-top: 73px;    
+}
+
+.img-assets {
+    margin-top: 51px;
+    margin-bottom: 72px;
+}
+
+.facebook-svg {
+    margin-right: 45.5px;
+}
+
+.close-svg {
+    margin-right: 242px;
+}
+
+.symbol {
+    height: 47px;
+    width: 41px;
+}
+
+.logo-svg {
+    display: flex;
+    justify-content: start;
+}
+
+.slash-svg {
+    height: 47px;
+}
+
+.logo-item {
+    align-self: stretch;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color: #323264;
+}
