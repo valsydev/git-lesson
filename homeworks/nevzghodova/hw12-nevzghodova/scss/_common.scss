@@ -1,0 +1,78 @@
+* {
+  font-family: TT Norms;
+}
+h1 {
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 31px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+h2 {
+  font-size: 32px;
+  color: $main;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  line-height: 38px;
+}
+h3 {
+  font-size: 24px;
+  color: $main;
+  margin-top: 10px;
+  margin-bottom: 21px;
+  line-height: 28px;
+}
+.caps {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 17px;
+    font-size: 14px;
+    margin-top: 10px;
+  margin-bottom: 27px;
+}
+h4 {
+  font-size: 18px;
+  color: $main;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  line-height: 21px;
+}
+p {
+  font-size: 18px;
+  line-height: 26px;
+}
+ul {
+  li {
+  color: $accent;
+  font-size: 18px;
+      line-height: 26px;
+  span {
+      color: black;
+  }
+}
+}
+ol {
+    li {
+        font-size: 18px;
+        line-height: 26px;
+    color: $accent;
+    font-weight: bold;
+    span {
+        color: black;
+        font-weight: normal;
+    }
+}
+}
+i {
+  color: $bg-text;
+}
+i:hover {
+  color: $link-regular;
+}
+a {
+  text-decoration: none;
+}
+

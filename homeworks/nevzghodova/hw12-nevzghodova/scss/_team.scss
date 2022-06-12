@@ -1,0 +1,105 @@
+.team__main__container {
+    display: flex;
+    flex-direction: column;
+
+    .mobile {
+        display: none;
+    }
+
+    .team__main__img {
+        width: 100%;
+        display: block;
+        object-fit: fill;
+    }
+
+    .team__main__content {
+        padding: 0 20px 0;
+
+        &__hero {
+            font-size: 24px;
+            line-height: 25px;
+        }
+
+        &__text {
+            color: $bg-text;
+            margin: 0;
+            font-size: 16px;
+            font-weight: 200;
+        }
+
+        &__name {
+            color: $bg-text;
+            margin-bottom: 5px;
+            font-weight: 400;
+        }
+
+        &__title {
+            color: $link-regular;
+
+            i {
+                color: $link-regular;
+                margin-left: 8.5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    .team__main__container {
+        .team__main__content {
+            &__hero {
+                font-size: 42px;
+                line-height: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .owl-carousel {
+        .owl-dots {
+            max-width: 200px;
+            margin: 10px auto;
+
+            .owl-dot {
+                margin-right: 14px;
+                width: 16px;
+                height: 16px;
+                background-color: $link-regular;
+                opacity: 0.2;
+                border-radius: 50%;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .team__main {
+        .team__main__container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            background-color: $bg;
+
+            .team__main__content {
+                padding: 40px;
+
+                &__hero {
+                    font-size: 42px;
+                    line-height: 50px;
+                }
+
+                &__name {
+                    &:hover {
+                        color: $accent;
+                    }
+                }
+            }
+        }
+
+        .mobile {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.box {
+    width: 100px;
+    height: 100px;
+    &__title {
+        font-size: 13px;
+        color: $titles;
+    }
+}
+.main-page {
+    padding: 19px;
+    .main__title {
+        color: $titles;
+        font-size: 24px;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    .container__title {
+        color: $titles;
+        font-size: 21px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .colors__main {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100px);
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+    .colors__active {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100px);
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+    .colors__grey {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100px);
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+    .colors__gradient {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 100px);
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+    .colors__accent {
+        margin-bottom: 50px;
+    }
+    .font-family_bold {
+        font-weight: bold;
+    }
+    .font-family_medium {
+        font-weight: 500;
+    }
+    .link {
+        margin-bottom: 70px;
+        a {
+            color: $link-regular;
+        }
+        a:hover {
+            color: $accent;
+        }
+    }
+    .assets {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        .fa-facebook {
+            font-size: 24px;
+            margin-right: 20px;
+        }
+        .fa-angle-right {
+            font-size: 9px;
+        }
+
+    }
+    }
+    .box__title {
+        display: inline-block;
+    }
+    .subtitle {
+        color: $titles;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    #main {
+        background-color: $main;
+    }
+    #regular {
+        background-color: $regular;
+    }
+    #alt {
+        background-color: $alt;
+    }
+    #soft {
+        background-color: $soft;
+    }
+    #accent {
+        background-color: $accent;
+    }
+    #link-reg {
+        background-color: $active;
+    }
+    #hover {
+        background-color: $hover;
+    }
+    #active {
+        background-color: $active;
+    }
+    #bg {
+        background-color: $bg;
+    }
+    #bg-alt {
+        background-color: $bg-alt;
+    }
+    #bg-text {
+        background-color: $bg-text;
+    }
+    #separator {
+        background-color: $separator;
+    }
+    #gr {
+        background: linear-gradient(128.63deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
+    }
+    #gr-soft {
+        background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    }
+    #gr-red {
+        background: linear-gradient(121.42deg, #F0145A 30.65%, #693264 107.33%);
+    }
+    #gr-supersoft {
+        background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    }
+    #red-text {
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    }

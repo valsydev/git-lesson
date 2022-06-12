@@ -1,0 +1,84 @@
+.clients__main {
+    &__title {
+        width: 100%;
+        text-align: center;
+        color: $main;
+        margin-bottom: 30px;
+    }
+    &__container {
+        display: grid;
+        grid-template-areas: 
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "k l";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 90px);
+
+        #hillel {
+            background-color: #1C4280;
+            grid-area: a;
+        }
+        #wannabiz {
+            background-color: #143646;
+            grid-area: b;
+        }
+        #tapgerine {
+            background-color: #F48B30;
+            grid-area: c;
+        }
+        #d-look {
+            background-color: #9E4DC3;
+            grid-area: d;
+        }
+        #eco-leasing {
+            background-color: #DCF3F9;
+            grid-area: e;
+        }
+        #clickky {
+            background-color: #C71C36;
+            grid-area: f;
+        }
+        #orangear {
+            background-color: #FD9339;
+            grid-area: g;
+        }
+        #infratek {
+            background-color: #EAEAEA;
+            grid-area: h;
+        }
+        #ultimate-card {
+            background-color: #000000;
+            grid-area: i;
+        }
+        #art-print {
+            background-color: #1D4568;
+            grid-area: j;
+        }
+        #city-park {
+            background-color: #282240;
+            grid-area: k;
+        }
+        #adtelligent {
+            background-color: #E2E2E4;
+            grid-area: l;
+        }
+    }
+    .main__container__item {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .clients__main__container {
+        grid-template-areas: 
+        "a b c d"
+        "g l f e"
+        "h k j i";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 120px);
+    }
+}
