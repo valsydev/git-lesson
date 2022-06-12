@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-top {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.container-top div {
+    display: flex;
+    width: 540px;
+    height: 188px;
+    border-radius: 16px;
+    background: #F3F4FF;
+}
+
+.text {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.item-1 {
+    margin-top: 24px;
+}
+
+.item-2 {
+    margin-top: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.item-3 {
+    margin-top: 36px;
+}
+
+.container-bottom {
+    display: flex;
+    width: 1110px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-bottom div {
+    width: 160px;
+    height: 80px;
+    background: #F8F9FF;
+    margin: auto;
+    margin-top: 32px;
+    border: 1px solid #EDEEF2;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-bottom img {
+    width: 24px;
+    height: 24px;
+}
+
+.container-bottom span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+
+
+
+.container-bottom div:hover {
+    border: 2px solid #4E60FF;
+}

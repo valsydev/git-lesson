@@ -1,0 +1,23 @@
+@media screen and (max-width:600px) {
+
+    .container-top {
+        /* flex-flow: column; */
+        flex-wrap: wrap;
+        width: 600px;
+        justify-content: center;
+    }
+
+    .discount {
+        margin-bottom: 20px;
+        height: 500px;
+    }
+
+    .container-bottom {
+        flex-wrap: wrap;
+        width: 600px;
+    }
+
+
+
+
+}
