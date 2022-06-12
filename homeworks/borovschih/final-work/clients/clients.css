@@ -67,15 +67,3 @@ main .caps {
 .ultimatecard {
     background-color: #000;
 }
-
-@media screen and (min-width: 768px) {
-    .clients {
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-    }
-
-    .area {
-          height: 110px;
-    }
-
-}

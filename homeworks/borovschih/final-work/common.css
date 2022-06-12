@@ -179,29 +179,35 @@ body {
     display: flex;
 }
 
-.header-list li {
+li {
     margin-left: 20px;
+    list-style: none;
 }
 
 .header-link {
     text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
-.burger {
-    display: none;
+.header-link:active {
+    text-decoration: underline;
+    color: var(--accent);
 }
+
+.header-link:hover {
+    text-decoration: underline;
+    color: var(--accent);
+    letter-spacing: 2px;
+}
+
+
+
 
 .tools {
     display: flex;
     justify-content: space-between;
     width: 70%;
-}
-
-.burger-tools {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 22px;
 }
 
 .arrow {
