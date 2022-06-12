@@ -22,8 +22,8 @@
     font-style: normal;
     font-weight: 400;
     src: local("Roboto"),
-         url("/fonts/roboto.woff2") format("woff2"),
-         url("/fonts/roboto.woff") format("woff");
+        url("/fonts/roboto.woff2") format("woff2"),
+        url("/fonts/roboto.woff") format("woff");
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
     font-size: 42px;
     line-height: 50px;
     letter-spacing: 0em;
-    text-align: left;  
+    text-align: left;
 }
 
 h2 {
@@ -171,7 +171,7 @@ body {
 }
 
 .vector {
-   height: 80%;
+    height: 80%;
 }
 
 .header-list {
@@ -200,9 +200,6 @@ li {
     color: var(--accent);
     letter-spacing: 2px;
 }
-
-
-
 
 .tools {
     display: flex;
