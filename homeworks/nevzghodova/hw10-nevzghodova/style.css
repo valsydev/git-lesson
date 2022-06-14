@@ -1,0 +1,29 @@
+.circle {
+    display: block;
+    background: black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    background: -webkit-radial-gradient(100px 100px, circle, #5cabff, #000);
+    background: -moz-radial-gradient(100px 100px, circle, #5cabff, #000);
+    position: absolute;
+    animation: bounce 3s linear infinite;
+  }
+
+  @keyframes bounce {
+    0% {bottom:100%}
+    25% {bottom:0; width: 300px; height: 300px;}
+    30% {bottom:0; width: 310px; height: 170px;}
+    35% {bottom:0; width: 300px; height: 300px;}
+    70% {bottom: 100%;}
+    100% {bottom: 100%;}
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
