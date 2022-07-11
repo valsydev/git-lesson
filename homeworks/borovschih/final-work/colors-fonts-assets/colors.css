@@ -1,0 +1,102 @@
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    margin: 0 -10px;
+}
+.colors {
+    margin: 0 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.main-regular {
+    background-color: var(--main-regular);
+}
+
+.main-alt {
+    background-color: var(--main-alt);
+}
+
+.main-soft {
+    background-color: var(--main-soft);
+}
+
+.accent-square {
+    background-color: var(--accent);
+}
+
+.active-regular {
+    background-color: var(--active-regular);
+}
+
+.active-hover {
+    background-color: var(--active-hover);
+}
+
+.active-active {
+    background-color: var(--active-active);
+}
+
+.grey-bg {
+    background-color: var(--grey-bg);
+}
+
+.grey-bg-alt {
+    background-color: var(--grey-bg-alt);
+}
+
+.grey-text {
+    background-color: var(--grey-text);
+}
+
+.grey-separator {
+    background-color: var(--grey-separator);
+}
+
+.gradient-regular {
+    background: var(--gradient-regular);
+}
+
+.gradient-soft {
+    background: var(--gradient-soft);
+}
+
+.gradient-red {
+    background: var(--gradient-red);
+}
+
+.gradient-supersoft {
+    background: var(--gradient-supersoft);
+}
+
+.gradient-red-text {
+    background: var(--gradient-red-text);
+}
+
+#logo {
+    width: 155px;
+    height: 62px;
+}
+
+b {
+    color: #4B28DE;
+}
+
+.assets {
+    margin-top: 70px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+}
+
+#vector {
+    margin-left: 9px;
+}
+
+#slash {
+    margin-left: 112.69px;
+}
+
