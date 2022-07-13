@@ -6,6 +6,7 @@ let a = x+y;
 let b = x-y;
 let c = x*y;
 let d = x/y;
+
 alert("sum:"+a);
 alert("difference:"+b);
 alert("product:"+c);
