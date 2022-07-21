@@ -1,4 +1,4 @@
-const threeDigitNumber = prompt('Введіть тризначне число');
+const threeDigitNumber = +prompt('Введіть тризначне число');
 const firstDigit1 = Math.floor(threeDigitNumber / 100);
 const secondDigit1 = Math.floor(threeDigitNumber % 100 / 10);
 const threeDigit1 = Math.floor(threeDigitNumber % 100 % 10);
