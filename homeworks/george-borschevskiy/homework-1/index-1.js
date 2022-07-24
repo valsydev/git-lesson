@@ -10,7 +10,3 @@ alert(sumOfNums)
 alert(subtractioOfNums)
 alert(multiplicationOfNums)
 alert(divisionOfNums)
-
-
-
-
